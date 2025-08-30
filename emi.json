@@ -1,0 +1,483 @@
+{
+  "favorites": [
+    {
+      "stack": "item:minecraft:oak_log"
+    },
+    {
+      "stack": "item:minecraft:oak_wood"
+    },
+    {
+      "stack": "item:minecraft:spruce_stairs"
+    },
+    {
+      "stack": "item:minecraft:jungle_planks"
+    },
+    {
+      "stack": "item:minecraft:dark_oak_stairs"
+    },
+    {
+      "stack": "item:minecraft:acacia_stairs"
+    },
+    {
+      "stack": "item:minecraft:mangrove_slab"
+    },
+    {
+      "stack": "item:atmospheric:morado_stairs"
+    },
+    {
+      "stack": "item:atmospheric:stripped_laurel_wood"
+    },
+    {
+      "stack": "item:atmospheric:watchful_aspen_log"
+    },
+    {
+      "stack": "item:atmospheric:watchful_aspen_wood"
+    },
+    {
+      "stack": "item:atmospheric:stripped_aspen_log"
+    },
+    {
+      "stack": "item:atmospheric:aspen_wood"
+    },
+    {
+      "stack": "item:atmospheric:stripped_aspen_wood"
+    },
+    {
+      "stack": "item:atmospheric:kousa_wood"
+    },
+    {
+      "stack": "item:atmospheric:stripped_kousa_log"
+    },
+    {
+      "stack": "item:atmospheric:morado_slab"
+    },
+    {
+      "stack": "item:minecraft:mangrove_fence"
+    },
+    {
+      "stack": "item:atmospheric:stripped_yucca_wood"
+    },
+    {
+      "stack": "item:minecraft:acacia_door"
+    },
+    {
+      "stack": "item:minecraft:cherry_pressure_plate"
+    },
+    {
+      "stack": "item:atmospheric:rosewood_slab"
+    },
+    {
+      "stack": "item:minecraft:acacia_slab"
+    },
+    {
+      "stack": "item:minecraft:jungle_stairs"
+    },
+    {
+      "stack": "item:minecraft:dark_oak_fence"
+    },
+    {
+      "stack": "item:minecraft:cherry_trapdoor"
+    },
+    {
+      "stack": "item:minecraft:dark_oak_planks"
+    },
+    {
+      "stack": "item:atmospheric:laurel_planks"
+    },
+    {
+      "stack": "item:atmospheric:laurel_slab"
+    },
+    {
+      "stack": "item:atmospheric:kousa_log"
+    }
+  ],
+  "lookup_history": [
+    "item:scguns:deep_dark_blueprint",
+    "item:delightful:rock_candy",
+    "item:delightful:smore",
+    "item:delightful:cactus_chili",
+    "item:delightful:salmonberry_pie",
+    "item:delightful:blueberry_sack",
+    "item:stackcrafting:stack_crafting_table",
+    "item:create:mechanical_crafter",
+    "item:create:brass_ingot",
+    "item:scguns:treated_brass_ingot",
+    "item:scguns:spitfire{AmmoCount:20,Damage:0}",
+    "item:nirvana:herbal_salve{Effects:[{EffectDuration:480,EffectId:15,\"forge:effect_id\":\"minecraft:blindness\"}]}",
+    "item:nirvana:herbal_salve{Effects:[{EffectDuration:300,EffectId:16,\"forge:effect_id\":\"minecraft:night_vision\"}]}",
+    "item:nirvana:herbal_salve{Effects:[{EffectDuration:21,EffectId:23,\"forge:effect_id\":\"minecraft:saturation\"}]}",
+    "item:nirvana:herbal_salve{Effects:[{EffectDuration:600,EffectId:19,\"forge:effect_id\":\"minecraft:poison\"}]}",
+    "item:create:fluid_pipe",
+    "item:create:mechanical_pump",
+    "item:minecraft:oak_stairs",
+    "item:actuallyadditions:drill_light_blue",
+    "item:actuallyadditions:drill_pink{Charged:1b,Energy:250000.0d}",
+    "item:minecraft:gold_nugget",
+    "item:minecraft:raw_gold",
+    "item:minecraft:raw_gold_block",
+    "item:industrialhellscape:toilet",
+    "item:industrialhellscape:gray_pipe_conduit_inner_corner",
+    "#item:industrialhellscape:vesselplate_blocks",
+    {
+      "type": "item",
+      "id": "industrialhellscape:gray_catwalk_strut_slab",
+      "amount": 2
+    },
+    "item:industrialhellscape:smooth_gray_vesselplate",
+    "item:industrialhellscape:desk",
+    "item:industrialhellscape:vertical_encased_cables",
+    "item:industrialhellscape:inhell_haven_device{Damage:0}",
+    "item:industrialhellscape:strut_slab",
+    "item:industrialhellscape:catwalk_strut_slab",
+    "item:create:track",
+    "item:createbigcannons:ram_rod",
+    "item:createbigcannons:shot_balls",
+    "item:createbigcannons:bag_of_grapeshot",
+    "item:industrialhellscape:gray_strut",
+    "item:create:andesite_casing",
+    "item:create:mechanical_drill",
+    "item:actuallyadditions:shock_suppressor",
+    "item:industrialhellscape:vesselplate",
+    "item:industrialhellscape:smooth_vesselplate",
+    "item:industrialhellscape:gray_pipe_conduit",
+    "item:industrialhellscape:pipeworks",
+    "#item:industrialhellscape:pipeworks_blocks",
+    "item:industrialhellscape:copper_pipe_conduit",
+    "item:industrialhellscape:see-through_grate",
+    "item:actuallyadditions:palis_crystal",
+    "item:actuallyadditions:empowered_palis_crystal",
+    "item:actuallyadditions:restonia_crystal_shard",
+    "item:actuallyadditions:palis_crystal_shard",
+    "item:actuallyadditions:diamatine_crystal_shard",
+    "item:actuallyadditions:ring",
+    "item:actuallyadditions:empowered_canola_seed",
+    "item:actuallyadditions:canola_seeds",
+    "item:actuallyadditions:crystallized_canola_seed",
+    "item:actuallyadditions:tiny_torch",
+    "item:actuallyadditions:ethetic_white_block",
+    "item:actuallyadditions:ethetic_green_block",
+    {
+      "type": "fluid",
+      "id": "actuallyadditions:empowered_oil",
+      "amount": 0
+    },
+    "item:actuallyadditions:black_quartz",
+    "item:actuallyadditions:heat_collector",
+    "item:actuallyadditions:phantom_booster",
+    "item:actuallyadditions:coffee_machine",
+    "item:actuallyadditions:canola_press",
+    "item:actuallyadditions:basic_coil",
+    "item:actuallyadditions:drill_core",
+    "item:actuallyadditions:enori_crystal_cluster",
+    "item:actuallyadditions:laser_relay_advanced",
+    "item:actuallyadditions:empowered_void_crystal",
+    "item:scguns:polar_generator",
+    "item:actuallyadditions:oil_generator",
+    "item:actuallyadditions:coal_generator",
+    "item:actuallyadditions:leaf_generator",
+    "item:actuallyadditions:ranged_collector",
+    "item:actuallyadditions:vertical_digger",
+    "item:kubejs:anthralite_node",
+    "item:actuallyadditions:diamatine_crystal",
+    "item:actuallyadditions:empowered_diamatine_crystal",
+    "item:actuallyadditions:quintuple_battery{Charged:1b,Energy:2000000.0d}",
+    "item:actuallyadditions:quadruple_battery{Charged:1b,Energy:1000000.0d}",
+    "item:actuallyadditions:single_battery{Charged:1b,Energy:200000.0d}",
+    "item:actuallyadditions:double_battery{Charged:1b,Energy:350000.0d}",
+    "item:actuallyadditions:triple_battery{Charged:1b,Energy:600000.0d}",
+    "item:actuallyadditions:laser_wrench{}",
+    "item:create:cogwheel",
+    "item:create:gearbox",
+    "item:actuallyadditions:void_crystal",
+    "item:actuallyadditions:advanced_coil",
+    "item:actuallyadditions:laser_relay_item",
+    "item:actuallyadditions:laser_relay",
+    "item:actuallyadditions:firework_box",
+    "item:actuallyadditions:laser_relay_item_advanced",
+    "item:actuallyadditions:laser_relay_fluids",
+    "item:actuallyadditions:laser_relay_extreme",
+    "item:actuallyadditions:battery_box",
+    "#item:industrialhellscape:vesselplate_smeltable_item",
+    "item:mbd2:mbd_gadgets",
+    "item:actuallyadditions:canola",
+    {
+      "type": "fluid",
+      "id": "actuallyadditions:canola_oil",
+      "amount": 0
+    },
+    "item:actuallyadditions:fermenting_barrel",
+    {
+      "type": "fluid",
+      "id": "actuallyadditions:refined_canola_oil",
+      "amount": 0
+    },
+    "item:actuallyadditions:black_quartz_ore",
+    "item:scguns:sulfur_chunk",
+    "item:scguns:deepslate_sulfur_ore",
+    "item:apotheosis:gem_dust",
+    "item:apotheosis:mythic_material",
+    "item:apotheosis:epic_material",
+    "item:minecraft:diamond",
+    "item:vintageimprovements:lathe",
+    "item:vintageimprovements:hepatizon_sheet",
+    "item:vintageimprovements:vacuum_chamber",
+    "item:vintageimprovements:queens_slime_sheet",
+    "item:vintageimprovements:slimesteel_sheet",
+    "item:vintageimprovements:netherite_sheet",
+    "item:createbigcannons:cast_iron_ingot",
+    "item:vintageimprovements:cast_iron_sheet",
+    "item:vintageimprovements:cast_iron_rod",
+    "item:vintageimprovements:cast_iron_spring",
+    "item:marbledsarsenal:helmet_cm6m_gas_mask{Damage:0}",
+    "item:mcore:steel_chestplate{Damage:0}",
+    "item:minecraft:gold_ore",
+    "item:mcore:deepslate_titanium_ore",
+    "item:cbc_at:muzzle_brake_cast_mould",
+    "item:cbc_at:unbored_steel_muzzle_brake",
+    "item:cbc_at:steel_muzzle_brake",
+    "item:missions:mechanical_exchanger",
+    "item:missions:jar_of_tips",
+    "item:minecraft:emerald",
+    "item:minecraft:lapis_lazuli",
+    "item:actuallyadditions:teleport_staff{Charged:1b,Energy:250000.0d}",
+    "item:actuallyadditions:atomic_reconstructor",
+    "item:actuallyadditions:diamatine_crystal_block",
+    "item:actuallyadditions:ender_star",
+    "item:actuallyadditions:void_crystal_block",
+    "item:actuallyadditions:powered_furnace",
+    "item:actuallyadditions:leaf_blower",
+    "item:actuallyadditions:filter",
+    "item:actuallyadditions:emeradic_crystal",
+    "item:actuallyadditions:empowered_emeradic_crystal",
+    "item:actuallyadditions:empowered_emeradic_crystal_block",
+    "item:actuallyadditions:feeder",
+    "item:actuallyadditions:lava_factory_casing",
+    "item:nirvana:herbal_salve{Effects:[{EffectDuration:300,EffectId:28,\"forge:effect_id\":\"minecraft:slow_falling\"}]}",
+    "item:nirvana:herbal_salve{Effects:[{EffectDuration:300,EffectId:1,\"forge:effect_id\":\"minecraft:speed\"}]}",
+    "item:nirvana:green_woven_burlap",
+    "item:nirvana:hemp_crate",
+    "item:everycomp:sob/atmospheric/morado_counter",
+    "item:born_in_chaos_v1:tombstone_dark_titan_066",
+    "item:mcore:titanium_ingot",
+    "item:mcore:titanium_chestplate{Damage:0}",
+    "item:mcore:titanium_sword{Damage:0}",
+    "item:abnormals_delight:cooked_venison_shanks",
+    "item:abnormals_delight:venison_shanks",
+    "item:windswept:cooked_goat",
+    "item:delightful:cooked_goat",
+    {
+      "type": "item",
+      "id": "windswept:goat",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "delightful:raw_goat",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "scguns:treated_iron_blend",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "minecraft:iron_ingot",
+      "amount": 64
+    },
+    "item:scguns:macerator",
+    "item:create:propeller",
+    "item:immersive_aircraft:propeller",
+    "item:immersive_aircraft:enhanced_propeller",
+    "item:marbledsarsenal:hazmat_armor_helmet{Damage:0}",
+    "item:mcore:steel_sheet",
+    "item:marbledsarsenal:swat_armor_helmet{Damage:0}",
+    "item:mcore:steel_scrap",
+    "item:mcore:steel_ingot",
+    "item:marbledsarsenal:swat_armor_chestplate{Damage:0}",
+    "item:immersive_aircraft:gyroscope",
+    "item:immersive_aircraft:bamboo_hopper",
+    "item:createbigcannons:flak_autocannon_round{}",
+    "item:createbigcannons:machine_gun_round{}",
+    "item:createbigcannons:nitropowder",
+    "item:scguns:osborne_slug",
+    "item:scguns:nitro_powder",
+    "item:scguns:nitro_powder_dust",
+    "item:scguns:nitro_buckshot",
+    "item:scguns:bearpack_shell",
+    "item:scguns:lone_wonder{AmmoCount:23,Damage:0,DrawnTick:22,GeckoLibID:3L,IsDrawing:1b,IsDrawn:1b}",
+    "item:scguns:peal",
+    "item:scguns:buckshot",
+    "item:actuallyadditions:restonia_crystal",
+    "item:create:package_frogport",
+    "item:create:repackager",
+    "item:copycats:copycat_ladder",
+    "item:rottencreatures:magma_rotten_flesh",
+    "item:opposing_force:tomahawk",
+    "item:minecraft:redstone",
+    "item:opposing_force:tesla_bow{Charged:1b,ChargedProjectiles:[{Count:1b,id:\"opposing_force:electric_charge\"}],Damage:0}",
+    "item:rottencreatures:tnt_barrel",
+    "item:minecraft:netherite_sword{Damage:0}",
+    "item:scguns:piglin_blueprint",
+    "item:scguns:ocean_blueprint",
+    "item:scguns:diamond_steel_blueprint",
+    "item:scguns:treated_brass_blueprint",
+    "item:scguns:iron_blueprint",
+    "item:scguns:copper_blueprint",
+    "item:gateways:gate_pearl{gateway:\"gateways:basic/blaze\"}",
+    "item:gateways:gate_pearl{gateway:\"gateways:endless/blaze\"}",
+    "item:gateways:gate_pearl{gateway:\"gateways:emerald_grove\"}",
+    "item:gateways:gate_pearl{gateway:\"scorched_lands:progression/treated_iron_gate\"}",
+    "item:gateways:gate_pearl{gateway:\"gateways:hellish_fortress\"}",
+    "item:gateways:gate_pearl{gateway:\"gateways:basic/enderman\"}",
+    {
+      "type": "item",
+      "id": "rottencreatures:frozen_rotten_flesh",
+      "amount": 2
+    },
+    "item:scguns:ancient_brass",
+    "item:scguns:ancient_brass_block",
+    "item:scguns:cog_knight_helmet{Damage:0}",
+    "item:scguns:scrapper{AmmoCount:8,Damage:0,DrawnTick:15,GeckoLibID:35L,IsDrawing:1b,IsDrawn:1b,MagazinePosition:0.0f}",
+    "item:scguns:shard_culler{AmmoCount:42,Damage:0,GeckoLibID:73L}",
+    "item:scguns:prima_materia{AmmoCount:14,Damage:0}",
+    "item:scguns:m22_waltz{AmmoCount:8,Damage:0}",
+    "item:scguns:sequoia{AmmoCount:6,Damage:0,GeckoLibID:61L}",
+    "item:scguns:ultra_knight_hawk{AmmoCount:3,Damage:0,GeckoLibID:62L}",
+    "item:scguns:defender_pistol{AmmoCount:9,Damage:0}",
+    "item:scguns:big_bore{AmmoCount:1,Damage:0,GeckoLibID:31L}",
+    "item:scguns:laser_musket{AmmoCount:12,Damage:0,GeckoLibID:32L}",
+    "item:scguns:plasmabuss{AmmoCount:5,Damage:0,GeckoLibID:33L}",
+    "item:scguns:floundergat{AmmoCount:4,Damage:0,GeckoLibID:34L}",
+    "item:born_in_chaos_v1:bone_handle",
+    "item:born_in_chaos_v1:dark_rod",
+    "item:born_in_chaos_v1:smoldering_infernal_ember",
+    "item:born_in_chaos_v1:coffee_candy",
+    {
+      "type": "item",
+      "id": "born_in_chaos_v1:spider_mandible",
+      "amount": 2
+    },
+    "item:born_in_chaos_v1:river_mint",
+    "item:born_in_chaos_v1:mint_candy",
+    "item:born_in_chaos_v1:phantom_powder",
+    "item:born_in_chaos_v1:diamond_termite_shard",
+    "item:born_in_chaos_v1:wood_splitter_axe{Damage:0}",
+    "item:born_in_chaos_v1:permafrost_shard",
+    "item:born_in_chaos_v1:frostbitten_blade{Damage:0}",
+    "item:scguns:callwell{AmmoCount:2,Damage:0}",
+    "item:scguns:stone_gun_barrel",
+    "item:scguns:flintlock_pistol{AmmoCount:1,Damage:0}",
+    "item:dungeonsdelight:rotten_tripe",
+    "item:dungeonsdelight:spider_meat",
+    "item:scguns:gun_parts_mold{Damage:0}",
+    "item:createbigcannons:steel_scrap",
+    "item:createbigcannons:steel_scrap",
+    "item:mininggadgets:upgrade_battery_3",
+    "item:mininggadgets:modificationtable",
+    "item:mininggadgets:upgrade_fortune_1",
+    "item:mininggadgets:upgrade_fortune_2",
+    "item:mininggadgets:upgrade_fortune_3",
+    "item:mininggadgets:upgrade_void_junk",
+    "item:scguns:iron_bayonet{Damage:0}",
+    "item:scguns:gun_magazine",
+    "item:scguns:charged_amethyst_shard",
+    "item:scguns:silencer{Damage:0}",
+    "item:scguns:copper_disc",
+    "item:scguns:penetrator",
+    "item:scguns:felix_memorial",
+    {
+      "type": "item",
+      "id": "scguns:plasma_nugget",
+      "amount": 5
+    },
+    "item:scguns:plasma",
+    "item:scguns:plasma_block",
+    "item:scguns:aureous_slag",
+    "item:scguns:astella{AmmoCount:7,Damage:0}",
+    "item:scguns:dozier_rl{AmmoCount:4,Damage:0}",
+    "item:scguns:gyrojet_pistol{AmmoCount:6,Damage:0}",
+    "item:immersive_aircraft:biplane",
+    "item:immersive_aircraft:sturdy_pipes",
+    "item:immersive_aircraft:nether_engine",
+    "item:immersive_aircraft:heavy_crossbow",
+    "item:brewinandchewin:unripe_scarlet_cheese_wheel",
+    "item:scguns:mangalitsa{AmmoCount:7,Damage:0,GeckoLibID:14L}",
+    "item:scguns:niami{AmmoCount:7,Damage:0,DrawnTick:15,GeckoLibID:12L,IsDrawing:1b,IsDrawn:1b}",
+    "item:sob:warped_counter",
+    {
+      "type": "item",
+      "id": "scguns:hardened_bullet",
+      "amount": 12
+    },
+    "item:scguns:bullet_mold{Damage:0}",
+    "item:scguns:medium_casing_mold{Damage:0}",
+    "item:scguns:small_casing_mold{Damage:0}",
+    "item:sob:big_soup_block",
+    "item:sob:nopal",
+    "item:sob:golden_prickly_pear",
+    "item:sob:prickly_pear",
+    "item:brewinandchewin:pickled_pickles",
+    "item:sob:bustling_brew",
+    "item:sob:candied_peanuts",
+    "item:sob:sculk_roll",
+    "item:sob:tuber_sticks",
+    "item:sob:pitcher_tuber",
+    "item:sob:dark_oak_counter",
+    "item:sob:asparagus_bundle",
+    "item:sob:pbnj",
+    "item:sob:cinder_dough",
+    "item:sob:cinder_bread",
+    {
+      "type": "fluid",
+      "id": "sob:root_beer",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "sob:eumozz_cheese",
+      "amount": 0
+    },
+    "item:sob:builder_smoothie",
+    "item:sob:exp_candy",
+    "item:sob:oak_counter",
+    "item:sob:nether_counter",
+    "item:sob:metal_counter",
+    "item:sob:counter",
+    {
+      "type": "fluid",
+      "id": "sob:liquid_experience",
+      "amount": 0
+    },
+    "item:scguns:pebbles",
+    "item:createbigcannons:very_small_steel_cannon_layer",
+    "item:createbigcannons:built_up_steel_cannon_barrel",
+    "item:createbigcannons:proximity_fuze{DetonationDistance:1}",
+    "item:immersive_aircraft:warship",
+    "item:immersive_aircraft:eco_engine",
+    "item:immersive_aircraft:bomb_bay",
+    "item:immersive_aircraft:telescope",
+    "item:immersive_aircraft:industrial_gears",
+    "item:scguns:plasma_core",
+    "item:scguns:sculk_resonator{AmmoCount:6,Damage:0,DrawnTick:23,GeckoLibID:3L,IsDrawing:1b,IsDrawn:1b}",
+    "item:scguns:forlorn_hope{AmmoCount:5,Damage:0,GeckoLibID:4L}",
+    "item:scguns:whispers{AmmoCount:12,Damage:0}",
+    "item:dungeonsdelight:heap_of_ancient_eggs",
+    "item:dungeonsdelight:wormwood_cabinet",
+    "item:scguns:syringe",
+    "item:immersive_aircraft:hull",
+    "item:immersive_aircraft:engine",
+    "item:scguns:boomstick{AmmoCount:4,Damage:0,DrawnTick:15,GeckoLibID:4L,IsDrawing:1b,IsDrawn:1b}",
+    "item:immersive_aircraft:steel_boiler",
+    "item:immersive_aircraft:boiler",
+    "item:scguns:raygun{AmmoCount:17,Damage:0,DrawnTick:17,GeckoLibID:1L,IsDrawing:1b,IsDrawn:1b}"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "worldgen"
+	group: "574998DA57423F40"
+	id: "60A1DB4E054540A3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Ore Nodes are features found in various biomes. By placing a drill on top of these nodes, you are able to extract resources indefinitely, as long as they recieve power and SU. It is important to control these features, since they are the only renewable method of getting ores."
+			"{@pagebreak}"
+			"The following biome types have the following ore nodes:"
+			""
+			"Overworld - "
+			""
+			"Swamps: Coal, Anthralite"
+			"Mountains: Iron, Redstone"
+			"Cold biomes: Zinc and Diamonds"
+			"Deserts: Lapis and Gold"
+			"Plains: Copper"
+			""
+			"Nether:"
+			""
+			"All biomes: Gold, Quartz, Vehement Coal, Ruby, Sulfur"
+		]
+		id: "53A6461C2E2917B5"
+		tasks: [{
+			id: "2AC1092ACA55AA45"
+			title: "Ore Nodes"
+			type: "checkmark"
+		}]
+		x: -1.5d
+		y: 0.0d
+	}]
+	title: "Worldgen"
+}

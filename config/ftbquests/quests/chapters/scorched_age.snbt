@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "scorched_age"
+	group: "0DC1B637D9189AE6"
+	id: "5ABA43A213AFF4BA"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Scorched Age"
+}

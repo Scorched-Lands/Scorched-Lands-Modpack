@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ironcopper_age"
+	group: "0DC1B637D9189AE6"
+	id: "4B5E84A77692B0B8"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2C1CA9B1E7A37E9E"
+			tasks: [{
+				id: "2DDD3F6DD599539F"
+				item: "minecraft:copper_block"
+				type: "item"
+			}]
+			title: "copper age too"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "1BCD353CAA46CE15"
+			tasks: [{
+				id: "7FC369F19D48B86C"
+				item: "minecraft:conduit"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	title: "Iron Age"
+}
