@@ -20,6 +20,12 @@
           "name": "minecraft:copper_ingot",
           "weight": 20,
           "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:anthralite_ingot",
+          "weight": 15,
+          "functions": []
         }
       ],
       "conditions": []
