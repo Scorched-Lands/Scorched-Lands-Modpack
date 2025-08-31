@@ -6,6 +6,152 @@
 	id: "0379E69F049996E9"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "027456468922581D"
+			tasks: [{
+				id: "6F905231541E9D01"
+				item: "scguns:macerator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "14A3A6C8F895AFBB"
+			tasks: [{
+				id: "2948BCAA65378EDB"
+				item: "scguns:advanced_composter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"027456468922581D"
+				"14A3A6C8F895AFBB"
+			]
+			id: "6F59F12F881CCC18"
+			tasks: [{
+				id: "607E41EEB2FC9954"
+				item: "scguns:treated_iron_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"04A3C90D2DDA9782"
+				"245EE2201BF0F662"
+			]
+			icon: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "scorched_lands:progression/treated_iron_gate"
+				}
+			}
+			id: "71E89778E5803F99"
+			rewards: [{
+				id: "421B15ADB81099AA"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "scorched_lands:progression/treated_iron_gate"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E6C2FD02264CDBC"
+				type: "checkmark"
+			}]
+			title: "Treated Iron Gateway"
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6F59F12F881CCC18"]
+			id: "3213E307F0C2987B"
+			tasks: [{
+				id: "1E0E553563884784"
+				item: "scguns:gun_bench"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6F59F12F881CCC18"]
+			id: "2DFA6407DB8FAE35"
+			tasks: [{
+				id: "400805D98ABEF88E"
+				item: "scguns:mechanical_press"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2DFA6407DB8FAE35"]
+			id: "04A3C90D2DDA9782"
+			tasks: [
+				{
+					id: "36966C6102F48F48"
+					item: "scguns:grapeshot"
+					type: "item"
+				}
+				{
+					id: "2CAA21DD654A9846"
+					item: "scguns:powder_and_ball"
+					type: "item"
+				}
+				{
+					id: "0DFA117E31597AFB"
+					item: "scguns:compact_copper_round"
+					type: "item"
+				}
+				{
+					id: "05F9EA93045F833B"
+					item: "scguns:standard_copper_round"
+					type: "item"
+				}
+				{
+					id: "7C1134D346578ABB"
+					item: "scguns:shotgun_shell"
+					type: "item"
+				}
+			]
+			title: "Ammunition"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3213E307F0C2987B"]
+			id: "245EE2201BF0F662"
+			tasks: [{
+				id: "6B18D8A4904A22B6"
+				item: {
+					Count: 1
+					id: "scguns:callwell_conversion"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+						DrawnTick: 22
+						GeckoLibID: 14L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "Gun"
+			x: 3.0d
+			y: -7.0d
+		}
+	]
 	title: "Stone Age"
 }

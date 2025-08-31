@@ -4,7 +4,10 @@ ServerEvents.recipes((event) => {
   ];
 
   const removedIDs = [
-
+    'scguns:macerator',
+    'scguns:advanced_composter',
+    'scguns:gun_bench',
+    'scguns:mechanical_press'
   ];
   const removedInputs = [];
   const removedOutputs = [];
