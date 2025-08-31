@@ -1,0 +1,15 @@
+{
+	"dimensions": [
+		"minecraft:overworld"
+	],
+	"min_rarity": "apotheosis:common",
+	"max_rarity": "apotheosis:common",
+	"weight": 1,
+	"stack": {
+		"item": "scguns:repeating_musket",
+		"count": 1,
+		"nbt": {
+			"Damage": 0
+		}
+	}
+}
