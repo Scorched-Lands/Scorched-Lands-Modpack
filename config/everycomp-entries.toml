@@ -120,6 +120,14 @@
 			moonshale = true
 			nebulite = true
 
+		[types.stone_type.securitycraft]
+			reinforced_stone = true
+
+	[types.mud_type]
+
+		[types.mud_type.securitycraft]
+			reinforced_mud = true
+
 #Disables specific entries
 [entries]
 

@@ -1,0 +1,11 @@
+
+#Graphics
+[graphics]
+
+	#Particles
+	[graphics.particles]
+		#Enable firefly bush effect.
+		fireflyBushEffect = true
+		#Enable ambient fireflies effect in swamp biomes.
+		firefliesAmbientEffect = true
+
