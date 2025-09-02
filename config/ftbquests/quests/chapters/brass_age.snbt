@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "brass_age"
 	group: "0DC1B637D9189AE6"
+	icon: "scguns:treated_brass_ingot"
 	id: "3F8EBD209B271C66"
 	order_index: 2
 	quest_links: [ ]
@@ -16,5 +17,5 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "Brass Age"
+	title: "Expand"
 }

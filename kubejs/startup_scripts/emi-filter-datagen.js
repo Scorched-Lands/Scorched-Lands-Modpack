@@ -22,8 +22,8 @@ StartupEvents.postInit(event => {
   // Writes a filter file from an array of category IDs
   function filterCategories(categories) {
     var json = {
-      filters: categories.map(function (id) {
-        return { id: id }
+      filters: categories.map(function (category) {
+        return { category: category }
       })
     }
     JsonIO.write("kubejs/assets/emi/recipe/filters/categories.json", json)

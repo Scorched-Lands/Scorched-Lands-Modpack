@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "stone_age"
 	group: "0DC1B637D9189AE6"
+	icon: "minecraft:iron_ingot"
 	id: "0379E69F049996E9"
 	order_index: 0
 	quest_links: [ ]
@@ -153,5 +154,5 @@
 			y: -7.0d
 		}
 	]
-	title: "Stone Age"
+	title: "Survive"
 }

@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "ironcopper_age"
 	group: "0DC1B637D9189AE6"
+	icon: "scguns:treated_iron_ingot"
 	id: "4B5E84A77692B0B8"
 	order_index: 1
 	quest_links: [ ]
@@ -29,5 +30,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Iron Age"
+	title: "Thrive"
 }

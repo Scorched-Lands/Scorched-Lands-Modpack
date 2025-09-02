@@ -7,7 +7,8 @@ ServerEvents.recipes((event) => {
     'scguns:macerator',
     'scguns:advanced_composter',
     'scguns:gun_bench',
-    'scguns:mechanical_press'
+    'scguns:mechanical_press',
+    'minecraft:enchanting_table'
   ];
   const removedInputs = [];
   const removedOutputs = [];

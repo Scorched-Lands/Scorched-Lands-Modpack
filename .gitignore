@@ -22,3 +22,4 @@ config/xaeropatreon.txt
 icon.png
 options.txt
 emi.json
+*.jar

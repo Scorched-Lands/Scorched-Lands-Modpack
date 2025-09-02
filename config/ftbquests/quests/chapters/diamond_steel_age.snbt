@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "diamond_steel_age"
 	group: "0DC1B637D9189AE6"
+	icon: "scguns:diamond_steel_ingot"
 	id: "33440FCD57FD789C"
 	order_index: 3
 	quest_links: [ ]
@@ -29,5 +30,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Diamond Steel Age"
+	title: "Advance"
 }
