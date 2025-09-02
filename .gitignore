@@ -23,3 +23,6 @@ icon.png
 options.txt
 emi.json
 *.jar
+*.marker
+config/xaerominimap_entities.json
+config/oculus.properties
