@@ -9,25 +9,175 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "2C1CA9B1E7A37E9E"
+			id: "66010DDA63995BB1"
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
-				id: "2DDD3F6DD599539F"
-				item: "minecraft:copper_block"
+				id: "356F40336837F186"
+				item: "scguns:treated_iron_ingot"
 				type: "item"
 			}]
-			title: "copper age too"
-			x: -1.5d
-			y: 0.0d
+			x: 2.0d
+			y: 0.5d
 		}
 		{
-			id: "1BCD353CAA46CE15"
+			dependencies: ["66010DDA63995BB1"]
+			id: "63D7075B66D75834"
 			tasks: [{
-				id: "7FC369F19D48B86C"
-				item: "minecraft:conduit"
+				id: "4DFA3470BD1FA9F4"
+				item: "pneumaticcraft:air_compressor"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.0d
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63D7075B66D75834"]
+			dependency_requirement: "all_started"
+			id: "71C83CFF3715E477"
+			tasks: [{
+				id: "46097FFB3876C5CE"
+				item: "pneumaticcraft:pneumatic_dynamo"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63D7075B66D75834"]
+			id: "5A4D6B307932B74E"
+			tasks: [{
+				id: "1662F44987A9512A"
+				item: "compressedcreativity:compressed_air_engine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["71C83CFF3715E477"]
+			id: "76822E59189C1BEB"
+			tasks: [{
+				id: "216499A2DDC54FE2"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(sl:mg))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Mining Gadget"
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71C83CFF3715E477"]
+			id: "30E80EB09B4A19AF"
+			tasks: [{
+				id: "27031DF321510699"
+				item: {
+					Count: 1
+					id: "buildinggadgets2:gadget_building"
+					tag: {
+						uuid: [I;
+							-979132886
+							1987069301
+							-1227304094
+							1708786082
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66010DDA63995BB1"]
+			id: "11FEF74845C9E102"
+			tasks: [{
+				id: "17A15F7D9BD06B30"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63D7075B66D75834"]
+			id: "11EE0A9FCF3EECF6"
+			tasks: [
+				{
+					id: "65B19C5766655558"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+				{
+					id: "718BEB685661C9AB"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "251BCFD167230D4A"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(pneumaticcraft:pressure_chamber_glass)item(pneumaticcraft:pressure_chamber_wall))"
+						}
+					}
+					title: "Pressure Chamber Blocks"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["11EE0A9FCF3EECF6"]
+			id: "6D2E5CCD8B3ADA9E"
+			tasks: [{
+				id: "1587570A19BADB8B"
+				item: "scguns:treated_brass_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6D2E5CCD8B3ADA9E"]
+			id: "32F2EE6FE3B038DF"
+			tasks: [{
+				id: "2F2723478A256CCF"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"76822E59189C1BEB"
+				"32F2EE6FE3B038DF"
+			]
+			id: "66BF8DE536439A2C"
+			tasks: [{
+				id: "616555A3B99FAF98"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(sl:mg_upgrade))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Mining Gadget Upgrade"
+			x: 7.0d
+			y: -5.5d
 		}
 	]
 	title: "Thrive"

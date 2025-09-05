@@ -1,20 +1,3 @@
-// @ts-nocheck
-
-let swap = (item1, item2) => {
-  event.shapeless(item1, [item2]);
-  event.shapeless(item2, [item1]);
-};
-
-function replaceitem(toBeReplaced, replacingItem) {
-  event.replaceInput({ input: toBeReplaced }, toBeReplaced, replacingItem);
-  global.nukelist.push(toBeReplaced);
-};
-
-function replaceitem(e, toBeReplaced, replacingItem) {
-  e.replaceInput({ input: toBeReplaced }, toBeReplaced, replacingItem);
-  global.nukelist.push(toBeReplaced);
-};
-
 function makeJsonIngredients(inputs) {
   let finalInputs = [];
   for (let input of inputs) {
@@ -39,9 +22,9 @@ function makeJsonIngredients(inputs) {
   return finalInputs;
 }
 
-function maceratorBuilder(e, output, inputs) {
+function maceratorBuilder(event, output, inputs) {
   output = Item.of(output);
-  e.custom({
+  event.custom({
     type: "scguns:macerating",
     processingTime: 200,
     ingredients: makeJsonIngredients(inputs),
@@ -51,7 +34,7 @@ function maceratorBuilder(e, output, inputs) {
     },
   });
 
-  e.custom({
+  event.custom({
     type: "scguns:powered_macerating",
     processingTime: 100,
     energyUse: 1000,
@@ -63,9 +46,23 @@ function maceratorBuilder(e, output, inputs) {
   });
 }
 
-function alloying(e, smeltOutput, procOutput, inputs) {
-  maceratorBuilder(procOutput, inputs);
-  e
+function infusion(event, output, input, eterna, quanta, arcana) {
+  output = Item.of(output);
+  event.custom({
+    type: "apotheosis:enchanting",
+    input: makeJsonIngredients([input])[0],
+    requirements: {
+      eterna: eterna,
+      quanta: quanta,
+      arcana: arcana,
+    },
+    result: { item: output.id, count: output.count },
+  });
+}
+
+function alloying(event, smeltOutput, procOutput, inputs) {
+  maceratorBuilder(event, procOutput, inputs);
+  event
     .smelting(smeltOutput, procOutput)
     .xp(2)
     .id(`kubejs:alloysmelting/${smeltOutput.split(":")[1]}`);

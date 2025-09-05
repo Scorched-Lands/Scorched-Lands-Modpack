@@ -8,7 +8,7 @@
 	#If true, Actually Additions' Update Checker searches for updates for the Minecraft Version you currently play on.
 	versionSpecificUpdateChecker = true
 	#If true, Mobs will randomly drop solidified XP occasionally.
-	doXpDrops = true
+	doXpDrops = false
 	#If true, Cats drop Hairy Balls Occasionally.
 	doCatDrops = true
 	#Should Bat wings drop from Bats?

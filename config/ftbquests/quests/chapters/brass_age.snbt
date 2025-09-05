@@ -7,15 +7,6 @@
 	id: "3F8EBD209B271C66"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "3B0F9038E1A8C99C"
-		tasks: [{
-			id: "7CD03E6C50050D50"
-			item: "minecraft:piglin_head"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [ ]
 	title: "Expand"
 }

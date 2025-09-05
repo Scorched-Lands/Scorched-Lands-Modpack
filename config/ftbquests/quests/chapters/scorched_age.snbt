@@ -7,15 +7,6 @@
 	id: "5ABA43A213AFF4BA"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "3F3343B59C8C8B3D"
-		tasks: [{
-			id: "16EDB7645892B13F"
-			item: "scguns:scorched_ingot"
-			type: "item"
-		}]
-		x: -0.5d
-		y: 0.5d
-	}]
+	quests: [ ]
 	title: "Exterminate"
 }

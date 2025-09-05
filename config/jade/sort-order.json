@@ -83,5 +83,17 @@
   "pneumaticcraft:tube_module": null,
   "securitycraft:info": null,
   "splendid_slimes:splendid_slime": null,
-  "storagedrawers:main": null
+  "storagedrawers:main": null,
+  "ytech:amphora": null,
+  "ytech:bronze_anvil": null,
+  "ytech:drying_racks": null,
+  "ytech:fire_pit": null,
+  "ytech:irrigation": null,
+  "ytech:millstone": null,
+  "ytech:potters_wheel": null,
+  "ytech:primitive_machines": null,
+  "ytech:tanning_racks": null,
+  "ytech:tool_rack": null,
+  "ytech:tree_stump": null,
+  "ytech:wooden_box": null
 }

@@ -66,6 +66,8 @@
 				}
 				type: "item"
 			}]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "3E6C2FD02264CDBC"
 				type: "checkmark"

@@ -12,6 +12,15 @@
       ],
       "bookmarks": [],
       "completedManualQuests": []
+    },
+    "pneumaticcraft:book": {
+      "viewedEntries": [
+        "pneumaticcraft:base_concepts/getting_started",
+        "pneumaticcraft:base_concepts/basic_materials",
+        "pneumaticcraft:base_concepts/heat_sources"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
     }
   }
 }

@@ -19,7 +19,3 @@ StartupEvents.registry("block", (event) => {
   event.create("scorched_drill");
   
 });
-
-StartupEvents.registry("fluid", (event) => {
-  event.create("lubricant");
-});

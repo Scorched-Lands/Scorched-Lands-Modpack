@@ -8,7 +8,8 @@ ServerEvents.recipes((event) => {
     'scguns:advanced_composter',
     'scguns:gun_bench',
     'scguns:mechanical_press',
-    'minecraft:enchanting_table'
+    'minecraft:enchanting_table',
+    'create:crafting/kinetics/fluid_tank',
   ];
   const removedInputs = [];
   const removedOutputs = [];

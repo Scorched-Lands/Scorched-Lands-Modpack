@@ -2,6 +2,10 @@
 // tables, recipes, tags, ect.
 
 global.nukelist = [
+  'mininggadgets:upgrade_empty',
+  'compressedcreativity:rotational_compressor',
+  'mininggadgets:upgrade_fortune_1',
+  'mininggadgets:upgrade_fortune_2',
   "vintageimprovements:vanadium_nugget",
   "vintageimprovements:vanadium_ingot",
   "vintageimprovements:vanadium_block",

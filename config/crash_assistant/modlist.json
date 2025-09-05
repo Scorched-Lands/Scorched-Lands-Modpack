@@ -139,6 +139,11 @@
     "modId": "clumps",
     "version": "12.0.0.4"
   },
+  "compressedcreativity-1.20.1-0.2.0-all.jar": {
+    "jarName": "compressedcreativity-1.20.1-0.2.0-all.jar",
+    "modId": "compressedcreativity",
+    "version": "1.20.1-0.2.0"
+  },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
     "modId": "configured",
@@ -178,6 +183,11 @@
     "jarName": "create_central_kitchen-1.20.1-for-create-6.0.4-1.4.1.jar",
     "modId": "create_central_kitchen",
     "version": "1.4.1"
+  },
+  "create_radar-0.3.1+mc1.20.1-all.jar": {
+    "jarName": "create_radar-0.3.1+mc1.20.1-all.jar",
+    "modId": "create_radar",
+    "version": "0.3"
   },
   "createbigcannons-5.9.1-mc.1.20.1-forge.jar": {
     "jarName": "createbigcannons-5.9.1-mc.1.20.1-forge.jar",
@@ -329,11 +339,6 @@
     "modId": "fluffy_fur",
     "version": "1.20.1-0.2.2"
   },
-  "forge-dungeonsdelight-1.20.1-1.2.6.jar": {
-    "jarName": "forge-dungeonsdelight-1.20.1-1.2.6.jar",
-    "modId": "dungeonsdelight",
-    "version": "1.2.6"
-  },
   "framework-forge-1.20.1-0.7.15.jar": {
     "jarName": "framework-forge-1.20.1-0.7.15.jar",
     "modId": "framework",
@@ -358,6 +363,11 @@
     "jarName": "ftb-teams-forge-2001.3.1.jar",
     "modId": "ftbteams",
     "version": "2001.3.1"
+  },
+  "ftb-xmod-compat-forge-2.1.3.jar": {
+    "jarName": "ftb-xmod-compat-forge-2.1.3.jar",
+    "modId": "ftbxmodcompat",
+    "version": "2.1.3"
   },
   "fzzy_config-0.7.2+1.20.1+forge.jar": {
     "jarName": "fzzy_config-0.7.2+1.20.1+forge.jar",
@@ -404,8 +414,8 @@
     "modId": "incontrol",
     "version": "1.20-9.4.1"
   },
-  "industrialhellscape-0.2.4-1.20.1.jar": {
-    "jarName": "industrialhellscape-0.2.4-1.20.1.jar",
+  "industrialhellscape-0.2.6-1.20.1.jar": {
+    "jarName": "industrialhellscape-0.2.6-1.20.1.jar",
     "modId": "industrialhellscape",
     "version": "0.0.1-1.20.1"
   },
@@ -585,11 +595,6 @@
     "modId": "opposing_force",
     "version": "1.0.0"
   },
-  "particlerain-4.0.0-alpha.3+1.20.1-forge.jar": {
-    "jarName": "particlerain-4.0.0-alpha.3+1.20.1-forge.jar",
-    "modId": "particlerain",
-    "version": "4.0.0-alpha.3+1.20.1-forge"
-  },
   "Patchouli-1.20.1-84.1-FORGE.jar": {
     "jarName": "Patchouli-1.20.1-84.1-FORGE.jar",
     "modId": "patchouli",
@@ -670,20 +675,20 @@
     "modId": "rubinated_nether",
     "version": "1.3.0.E-1.20.1"
   },
-  "RunicLib-forge-1.20.1-4.3.4.jar": {
-    "jarName": "RunicLib-forge-1.20.1-4.3.4.jar",
+  "RunicLib-forge-1.20.1-4.3.5.jar": {
+    "jarName": "RunicLib-forge-1.20.1-4.3.5.jar",
     "modId": "runiclib",
-    "version": "4.3.4"
+    "version": "4.3.5"
   },
   "sawmill-1.20-1.4.10.jar": {
     "jarName": "sawmill-1.20-1.4.10.jar",
     "modId": "sawmill",
     "version": "1.20-1.4.10"
   },
-  "ScorchedGuns-0.4.2-1.20.1.jar": {
-    "jarName": "ScorchedGuns-0.4.2-1.20.1.jar",
+  "ScorchedGuns-0.4.5-1.20.1.jar": {
+    "jarName": "ScorchedGuns-0.4.5-1.20.1.jar",
     "modId": "scguns",
-    "version": "0.4.2.0"
+    "version": "0.4.5"
   },
   "Searchables-forge-1.20.1-1.0.3.jar": {
     "jarName": "Searchables-forge-1.20.1-1.0.3.jar",
@@ -715,15 +720,15 @@
     "modId": "sodiumoptionsapi",
     "version": "1.0.10"
   },
-  "sophisticatedbackpacks-1.20.1-3.23.26.1315.jar": {
-    "jarName": "sophisticatedbackpacks-1.20.1-3.23.26.1315.jar",
+  "sophisticatedbackpacks-1.20.1-3.24.2.1339.jar": {
+    "jarName": "sophisticatedbackpacks-1.20.1-3.24.2.1339.jar",
     "modId": "sophisticatedbackpacks",
-    "version": "3.23.26.1315"
+    "version": "3.24.2.1339"
   },
-  "sophisticatedcore-1.20.1-1.2.83.1111.jar": {
-    "jarName": "sophisticatedcore-1.20.1-1.2.83.1111.jar",
+  "sophisticatedcore-1.20.1-1.2.85.1127.jar": {
+    "jarName": "sophisticatedcore-1.20.1-1.2.85.1127.jar",
     "modId": "sophisticatedcore",
-    "version": "1.2.83.1111"
+    "version": "1.2.85.1127"
   },
   "spark-1.10.53-forge.jar": {
     "jarName": "spark-1.10.53-forge.jar",
@@ -740,20 +745,20 @@
     "modId": "stackcrafting",
     "version": "1.20.1-1.0.1"
   },
-  "Steam_Rails-1.6.12-alpha+forge-mc1.20.1.jar": {
-    "jarName": "Steam_Rails-1.6.12-alpha+forge-mc1.20.1.jar",
+  "Steam_Rails-1.6.13-alpha+forge-mc1.20.1.jar": {
+    "jarName": "Steam_Rails-1.6.13-alpha+forge-mc1.20.1.jar",
     "modId": "railways",
-    "version": "1.6.12-alpha+forge-mc1.20.1"
+    "version": "1.6.13-alpha+forge-mc1.20.1"
   },
   "stonezone-1.20-2.9.1.jar": {
     "jarName": "stonezone-1.20-2.9.1.jar",
     "modId": "stonezone",
     "version": "1.20-2.9.1"
   },
-  "StorageDrawers-forge-1.20.1-12.14.0.jar": {
-    "jarName": "StorageDrawers-forge-1.20.1-12.14.0.jar",
+  "StorageDrawers-forge-1.20.1-12.14.1.jar": {
+    "jarName": "StorageDrawers-forge-1.20.1-12.14.1.jar",
     "modId": "storagedrawers",
-    "version": "12.14.0"
+    "version": "12.14.1"
   },
   "structure_layout_optimizer-forge-1.0.10.jar": {
     "jarName": "structure_layout_optimizer-forge-1.0.10.jar",

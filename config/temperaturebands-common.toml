@@ -7,7 +7,7 @@
 	# So for example, if this value is 2048, the distance from the *center* of one one Hot band to the next Hot band center will be about 16384 (2048 * 8) blocks (Hot through to Freezing and back again).
 	# If there are any worldgen mods that add biomes with a different 'temperature range' for placement, they should be incorporated within existing bands normally.
 	#Range: 512 ~ 32768
-	bandSize = 2048
+	bandSize = 512
 	# If true, bands will be vertical instead of horizontal.
 	useVerticalBands = false
 	# Shift the bands by this percentage.
