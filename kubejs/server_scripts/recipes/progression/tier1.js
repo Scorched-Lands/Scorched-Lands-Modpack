@@ -22,4 +22,5 @@ ServerEvents.recipes((event) => {
         A: 'scguns:treated_iron_ingot',
         B: '#forge:ingots/copper'
     })
+    maceratorBuilder('4x scguns:pebbles', 'minecraft:gravel')
 })

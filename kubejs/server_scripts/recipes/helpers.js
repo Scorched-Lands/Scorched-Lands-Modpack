@@ -1,9 +1,11 @@
+// @ts-nocheck
+
 let swap = (item1, item2) => {
   event.shapeless(item1, [item2]);
   event.shapeless(item2, [item1]);
 };
 
-let replaceitem = (toBeReplaced, replacingItem) => {
+function replaceitem(toBeReplaced, replacingItem) {
   event.replaceInput({ input: toBeReplaced }, toBeReplaced, replacingItem);
   global.nukelist.push(toBeReplaced);
 };
