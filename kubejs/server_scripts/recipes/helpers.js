@@ -10,6 +10,11 @@ function replaceitem(toBeReplaced, replacingItem) {
   global.nukelist.push(toBeReplaced);
 };
 
+function replaceitem(e, toBeReplaced, replacingItem) {
+  e.replaceInput({ input: toBeReplaced }, toBeReplaced, replacingItem);
+  global.nukelist.push(toBeReplaced);
+};
+
 function makeJsonIngredients(inputs) {
   let finalInputs = [];
   for (let input of inputs) {
@@ -34,9 +39,9 @@ function makeJsonIngredients(inputs) {
   return finalInputs;
 }
 
-function maceratorBuilder(output, inputs) {
+function maceratorBuilder(e, output, inputs) {
   output = Item.of(output);
-  event.custom({
+  e.custom({
     type: "scguns:macerating",
     processingTime: 200,
     ingredients: makeJsonIngredients(inputs),
@@ -46,7 +51,7 @@ function maceratorBuilder(output, inputs) {
     },
   });
 
-  event.custom({
+  e.custom({
     type: "scguns:powered_macerating",
     processingTime: 100,
     energyUse: 1000,
@@ -58,9 +63,9 @@ function maceratorBuilder(output, inputs) {
   });
 }
 
-function alloying(smeltOutput, procOutput, inputs) {
+function alloying(e, smeltOutput, procOutput, inputs) {
   maceratorBuilder(procOutput, inputs);
-  event
+  e
     .smelting(smeltOutput, procOutput)
     .xp(2)
     .id(`kubejs:alloysmelting/${smeltOutput.split(":")[1]}`);
