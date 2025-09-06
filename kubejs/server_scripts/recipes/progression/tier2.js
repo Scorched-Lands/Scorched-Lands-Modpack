@@ -52,6 +52,10 @@ ServerEvents.recipes((event) => {
     B: 'scguns:copper_blueprint',
     C: '#forge:storage_blocks/copper',
     D: 'minecraft:furnace'
+  });
+  event.shaped('create:brass_hand', [' A ', 'AAA', ' B '], {
+    A: '#minecraft:planks',
+    B: 'vintageimprovements:andesite_sheet'
   })
   event.recipes.create.compacting(Fluid.of('actuallyadditions:canola_oil', 100), '#forge:crops/canola')
   maceratorBuilder(event, '2x create:andesite_alloy', ['#forge:stone', '#forge:nuggets', '#forge:nuggets', '#forge:stone'])

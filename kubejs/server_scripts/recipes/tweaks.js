@@ -55,4 +55,5 @@ ServerEvents.recipes((event) => {
       fluid: "actuallyadditions:refined_canola_oil",
     },
   });
+  event.recipes.create.item_application('create:railway_casing', ['create:andesite_alloy_block', '#forge:ingots/gold'])
 });
