@@ -23,24 +23,23 @@
 		{
 			dependencies: ["66010DDA63995BB1"]
 			id: "63D7075B66D75834"
+			rewards: [{
+				id: "4A84A2E2B25F69AA"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4DFA3470BD1FA9F4"
 				item: "pneumaticcraft:air_compressor"
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["63D7075B66D75834"]
-			dependency_requirement: "all_started"
-			id: "71C83CFF3715E477"
-			tasks: [{
-				id: "46097FFB3876C5CE"
-				item: "pneumaticcraft:pneumatic_dynamo"
-				type: "item"
-			}]
-			x: 5.0d
 			y: -2.0d
 		}
 		{
@@ -55,7 +54,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["71C83CFF3715E477"]
+			dependencies: ["474AAE8B1FEF310A"]
 			id: "76822E59189C1BEB"
 			tasks: [{
 				id: "216499A2DDC54FE2"
@@ -69,30 +68,36 @@
 				type: "item"
 			}]
 			title: "Mining Gadget"
-			x: 7.0d
-			y: -3.0d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["71C83CFF3715E477"]
+			dependencies: ["474AAE8B1FEF310A"]
 			id: "30E80EB09B4A19AF"
-			tasks: [{
-				id: "27031DF321510699"
+			rewards: [{
+				id: "55F098882B3A3891"
 				item: {
 					Count: 1
-					id: "buildinggadgets2:gadget_building"
+					id: "patchouli:guide_book"
 					tag: {
-						uuid: [I;
-							-979132886
-							1987069301
-							-1227304094
-							1708786082
-						]
+						"patchouli:book": "buildinggadgets2:buildinggadgets2book"
 					}
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
+			tasks: [{
+				id: "213EF2DCD7A33872"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_destruction)item(buildinggadgets2:gadget_cut_paste))"
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["66010DDA63995BB1"]
@@ -164,20 +169,45 @@
 				"32F2EE6FE3B038DF"
 			]
 			id: "66BF8DE536439A2C"
-			tasks: [{
-				id: "616555A3B99FAF98"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item_tag(sl:mg_upgrade))"
+			tasks: [
+				{
+					id: "616555A3B99FAF98"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item_tag(sl:mg_upgrade))"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5AEFA55C0DC92DE7"
+					item: "mininggadgets:modificationtable"
+					type: "item"
+				}
+			]
 			title: "Mining Gadget Upgrade"
-			x: 7.0d
+			x: 7.5d
 			y: -5.5d
+		}
+		{
+			dependencies: ["66010DDA63995BB1"]
+			id: "474AAE8B1FEF310A"
+			tasks: [
+				{
+					id: "64F78321B1952324"
+					item: "actuallyadditions:energizer"
+					type: "item"
+				}
+				{
+					id: "3DED428EE31F8F5F"
+					item: "actuallyadditions:coal_generator"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.5d
 		}
 	]
 	title: "Thrive"

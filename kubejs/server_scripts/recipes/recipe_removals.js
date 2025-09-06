@@ -20,7 +20,12 @@ ServerEvents.recipes((event) => {
     'scguns:macerator/treated_brass_blend_from_brass_mask_from_macerating',
     'scguns:powered_macerator/powered_treated_brass_blend_from_brass_mask_from_macerating',
     'scguns:powered_macerator/powered_treated_brass_blend_from_macerating',
-    'scguns:create/treated_brass_ingot_from_mixing'
+    'scguns:create/treated_brass_ingot_from_mixing',
+    'actuallyadditions:coal_generator',
+    'create:mixing/andesite_alloy_from_zinc',
+    'create:crafting/materials/andesite_alloy',
+    'create:crafting/materials/andesite_alloy_from_zinc',
+    
   ];
   const removedInputs = [];
   const removedOutputs = [];
