@@ -25,7 +25,12 @@ ServerEvents.recipes((event) => {
     'create:mixing/andesite_alloy_from_zinc',
     'create:crafting/materials/andesite_alloy',
     'create:crafting/materials/andesite_alloy_from_zinc',
-    
+    'actuallyadditions:atomic_reconstructor',
+    'actuallyadditions:basic_coil',
+    'actuallyadditions:pressing/canola',
+    'actuallyadditions:fermenting/refined_canola',
+    'immersive_aircraft:boiler',
+    'immersive_aircraft:steel_boiler',
   ];
   const removedInputs = [];
   const removedOutputs = [];

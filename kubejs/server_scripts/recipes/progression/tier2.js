@@ -47,6 +47,13 @@ ServerEvents.recipes((event) => {
     B: '#forge:rods/wooden',
     C: 'create:andesite_alloy'
   });
+  event.shaped('immersive_aircraft:boiler', ['AAA', 'ABA', 'CDC'], {
+    A: '#forge:ingots/copper',
+    B: 'scguns:copper_blueprint',
+    C: '#forge:storage_blocks/copper',
+    D: 'minecraft:furnace'
+  })
+  event.recipes.create.compacting(Fluid.of('actuallyadditions:canola_oil', 100), '#forge:crops/canola')
   maceratorBuilder(event, '2x create:andesite_alloy', ['#forge:stone', '#forge:nuggets', '#forge:nuggets', '#forge:stone'])
   infusion(event, "mininggadgets:upgrade_fortune_3", "minecraft:diamond_block", 15, 20, 0);
   infusion(event, "mininggadgets:upgrade_freezing", "minecraft:blue_ice", 15, 20, 0);

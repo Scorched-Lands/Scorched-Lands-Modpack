@@ -4,28 +4,55 @@ ServerEvents.recipes((event) => {
       event.shapeless(Item.of("minecraft:barrier"), ["minecraft:barrier"]).id(f)
     );
   apothRemovedIDs([
-    'apotheosis:hellshelf',
-    'apotheosis:blazing_hellshelf',
-    'apotheosis:glowing_hellshelf',
-    'apotheosis:seashelf',
-    'apotheosis:crystal_seashelf',
-    'apotheosis:heart_seashelf',
-    'apotheosis:dormant_deepshelf',
-    'apotheosis:echoing_deepshelf',
-    'apotheosis:soul_touched_deepshelf',
-    'apotheosis:echoing_sculkshelf',
-    'apotheosis:soul_touched_sculkshelf',
-    'apotheosis:endshelf',
-    'apotheosis:pearl_endshelf',
-    'apotheosis:draconic_endshelf',
-    'apotheosis:rectifier',
-    'apotheosis:rectifier_t2',
-    'apotheosis:rectifier_t3',
-    'apotheosis:sightshelf',
-    'apotheosis:sightshelf_t2',
-    'apotheosis:filtering_shelf',
-    'apotheosis:treasure_shelf',
-    'apotheosis:library',
+    "apotheosis:hellshelf",
+    "apotheosis:blazing_hellshelf",
+    "apotheosis:glowing_hellshelf",
+    "apotheosis:seashelf",
+    "apotheosis:crystal_seashelf",
+    "apotheosis:heart_seashelf",
+    "apotheosis:dormant_deepshelf",
+    "apotheosis:echoing_deepshelf",
+    "apotheosis:soul_touched_deepshelf",
+    "apotheosis:echoing_sculkshelf",
+    "apotheosis:soul_touched_sculkshelf",
+    "apotheosis:endshelf",
+    "apotheosis:pearl_endshelf",
+    "apotheosis:draconic_endshelf",
+    "apotheosis:rectifier",
+    "apotheosis:rectifier_t2",
+    "apotheosis:rectifier_t3",
+    "apotheosis:sightshelf",
+    "apotheosis:sightshelf_t2",
+    "apotheosis:filtering_shelf",
+    "apotheosis:treasure_shelf",
+    "apotheosis:library",
   ]);
   // replaceitem(event, 'create:brass_ingot', 'scguns:treated_brass_ingot')
+  event.custom({
+    type: "brewinandchewin:fermenting",
+    basefluid: {
+      count: 1000,
+      fluid: "actuallyadditions:canola_oil",
+    },
+    experience: 5,
+    fermentingtime: 9600,
+    ingredients: [
+      {
+        item: "minecraft:sugar"
+      },
+      {
+        item: "minecraft:sugar"
+      },
+      {
+        item: "minecraft:sugar"
+      },
+      {
+        item: "minecraft:sugar"
+      }
+    ],
+    result: {
+      count: 1000,
+      fluid: "actuallyadditions:refined_canola_oil",
+    },
+  });
 });
