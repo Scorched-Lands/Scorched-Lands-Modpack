@@ -1,3 +1,7 @@
+function replaceitem(event, toBeReplaced, replacingItem) {
+  event.replaceInput({ input: toBeReplaced }, toBeReplaced, replacingItem);
+};
+
 function makeJsonIngredients(inputs) {
   let finalInputs = [];
   for (let input of inputs) {

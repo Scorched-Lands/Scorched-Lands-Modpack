@@ -2,6 +2,8 @@
 // tables, recipes, tags, ect.
 
 global.nukelist = [
+  'create:brass_ingot',
+  'scguns:treated_brass_blend',
   'mininggadgets:upgrade_empty',
   'compressedcreativity:rotational_compressor',
   'mininggadgets:upgrade_fortune_1',

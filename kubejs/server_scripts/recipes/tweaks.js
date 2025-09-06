@@ -27,4 +27,5 @@ ServerEvents.recipes((event) => {
     'apotheosis:treasure_shelf',
     'apotheosis:library',
   ]);
+  // replaceitem(event, 'create:brass_ingot', 'scguns:treated_brass_ingot')
 });

@@ -41,6 +41,10 @@
 			ancient = true
 			blossom = true
 
+		[types.wood_type.netherexp]
+			claret = true
+			smokestalk = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.culturaldelights]

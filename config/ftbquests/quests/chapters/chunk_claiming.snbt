@@ -4,7 +4,7 @@
 	filename: "chunk_claiming"
 	group: "574998DA57423F40"
 	id: "0A7CE7BB350F486D"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [{
 		description: ["Scorched Lands uses a custom claiming system; Scorched Claims. It's an addon for Open Parties and Claims (OPAC) that adds redeemable \"claim tickets\" that increase your maximum claims by 1. "]

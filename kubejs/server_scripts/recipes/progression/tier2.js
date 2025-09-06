@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+  const pneumaticcraft = definePneumaticcraftRecipes(event)
   event.shaped("4x create:fluid_tank", ["AAA", "ABA", "AAA"], {
     A: "#forge:plates/copper",
     B: "scguns:copper_blueprint",
@@ -17,4 +18,5 @@ ServerEvents.recipes(event => {
   infusion(event, "mininggadgets:upgrade_freezing", "minecraft:blue_ice", 15, 20, 0);
   infusion(event, "mininggadgets:upgrade_silk", "minecraft:feather", 15, 20, 0);
   infusion(event, "mininggadgets:upgrade_void_junk", "minecraft:obsidian", 15, 20, 0);
+  pneumaticcraft.pressure_chamber('scguns:treated_brass_ingot', 'create:zinc_ingot', 4)
 });
