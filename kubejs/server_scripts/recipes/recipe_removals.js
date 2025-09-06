@@ -33,6 +33,9 @@ ServerEvents.recipes((event) => {
     'immersive_aircraft:steel_boiler',
     'create:item_application/railway_casing',
     'create:crafting/kinetics/brass_hand',
+    'create:crafting/kinetics/controls',
+    'create:crafting/kinetics/schedule',
+    'create_central_kitchen:crafting/cooking_guide',
   ];
   const removedInputs = [];
   const removedOutputs = [];

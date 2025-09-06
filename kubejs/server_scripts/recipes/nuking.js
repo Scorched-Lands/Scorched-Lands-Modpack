@@ -2,6 +2,7 @@
 // tables, recipes, tags, ect.
 
 global.nukelist = [
+  'create:sturdy_sheet',
   "@mcore",
   "actuallyadditions:bats_wing",
   "actuallyadditions:canola_press",

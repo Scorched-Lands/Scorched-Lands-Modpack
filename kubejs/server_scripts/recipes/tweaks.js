@@ -55,5 +55,9 @@ ServerEvents.recipes((event) => {
       fluid: "actuallyadditions:refined_canola_oil",
     },
   });
-  event.recipes.create.item_application('create:railway_casing', ['create:andesite_alloy_block', '#forge:ingots/gold'])
+  event.recipes.create.item_application('create:railway_casing', ['create:andesite_alloy_block', '#forge:ingots/gold']),
+  event.shapeless('create:controls', ['minecraft:lever', 'create:railway_casing'])
+  event.shapeless('create_central_kitchen:cooking_guide', ['vintageimprovements:andesite_sheet', '#forge:crops'])
+  event.shapeless('4x create:schedule', ['vintageimprovements:andesite_sheet', 'create:railway_casing'])
+  event.shapeless('railways:fuel_tank', ['create:fluid_tank', 'create:railway_casing'])
 });
