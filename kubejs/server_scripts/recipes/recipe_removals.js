@@ -31,6 +31,7 @@ ServerEvents.recipes((event) => {
     'actuallyadditions:fermenting/refined_canola',
     'immersive_aircraft:boiler',
     'immersive_aircraft:steel_boiler',
+    'create:item_application/railway_casing'
   ];
   const removedInputs = [];
   const removedOutputs = [];
