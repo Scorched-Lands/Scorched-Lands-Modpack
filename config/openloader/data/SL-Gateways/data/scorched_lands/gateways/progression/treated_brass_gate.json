@@ -1,0 +1,79 @@
+{
+  "size": "small",
+  "color": "#F2C089",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "scguns:hive",
+          "count": 1
+        },
+        {
+          "entity": "scguns:blunderer",
+          "count": 1
+        },
+        {
+          "entity": "scguns:cog_knight",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:loot_table",
+          "loot_table": "scorched_lands:chests/treated_brass/wave_complete",
+          "rolls": 10,
+          "desc": "treated_brass_wave"
+        }
+      ],
+      "max_wave_time": 800,
+      "setup_time": 100
+    },
+    {
+      "entities": [
+        {
+          "entity": "scguns:dissident",
+          "count": 1
+        },
+        {
+          "entity": "scguns:swarm",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:loot_table",
+          "loot_table": "scorched_lands:chests/treated_brass/wave_complete",
+          "rolls": 15,
+          "desc": "treated_brass_wave"
+        }
+      ],
+      "max_wave_time": 800,
+      "setup_time": 150
+    },
+    {
+			"entities": [{
+				"type": "apotheosis:boss",
+				"boss": "scorched_lands:treated_iron_boss"
+			}],
+      "rewards": [
+        {
+          "type": "gateways:loot_table",
+          "loot_table": "scorched_lands:chests/treated_brass/wave_complete",
+          "rolls": 20,
+          "desc": "treated_brass_wave"
+        }
+      ],
+      "max_wave_time": 800,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:loot_table",
+      "loot_table": "scorched_lands:chests/treated_brass/end_reward",
+      "rolls": 1,
+      "desc": "treated_brass_end"
+    }
+  ],
+  "failures": []
+}

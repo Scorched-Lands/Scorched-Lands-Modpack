@@ -209,6 +209,17 @@
 			x: 5.0d
 			y: 0.5d
 		}
+		{
+			dependencies: ["66010DDA63995BB1"]
+			id: "18A276D7D6F4F24F"
+			tasks: [{
+				id: "1187E40108E4559D"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
 	]
 	title: "Thrive"
 }

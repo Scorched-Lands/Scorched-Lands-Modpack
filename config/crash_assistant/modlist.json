@@ -19,11 +19,6 @@
     "modId": "actuallyadditions",
     "version": "1.2.14.14+mc1.20.1"
   },
-  "almostunified-forge-1.20.1-0.10.1.jar": {
-    "jarName": "almostunified-forge-1.20.1-0.10.1.jar",
-    "modId": "almostunified",
-    "version": "1.20.1-0.10.1"
-  },
   "alternate_current-mc1.20-1.7.0.jar": {
     "jarName": "alternate_current-mc1.20-1.7.0.jar",
     "modId": "alternate_current",
@@ -179,10 +174,10 @@
     "modId": "create",
     "version": "6.0.6"
   },
-  "create_central_kitchen-1.20.1-for-create-6.0.4-1.4.1.jar": {
-    "jarName": "create_central_kitchen-1.20.1-for-create-6.0.4-1.4.1.jar",
+  "create_central_kitchen-1.20.1-for-create-6.0.4-1.4.2.jar": {
+    "jarName": "create_central_kitchen-1.20.1-for-create-6.0.4-1.4.2.jar",
     "modId": "create_central_kitchen",
-    "version": "1.4.1"
+    "version": "1.4.2"
   },
   "create_radar-0.3.1+mc1.20.1-all.jar": {
     "jarName": "create_radar-0.3.1+mc1.20.1-all.jar",
@@ -424,6 +419,11 @@
     "modId": "industrialhellscape",
     "version": "0.0.1-1.20.1"
   },
+  "interiors-0.5.6+forge-mc1.20.1-local.jar": {
+    "jarName": "interiors-0.5.6+forge-mc1.20.1-local.jar",
+    "modId": "interiors",
+    "version": "0.5.6"
+  },
   "inventoryessentials-forge-1.20.1-8.2.9.jar": {
     "jarName": "inventoryessentials-forge-1.20.1-8.2.9.jar",
     "modId": "inventoryessentials",
@@ -521,6 +521,11 @@
     "jarName": "marbledsarsenal-1.20.1forge-2.3.0.3.jar",
     "modId": "marbledsarsenal",
     "version": "2.3.0.3"
+  },
+  "marbledsmelees-1.20.1-1.0.0.jar": {
+    "jarName": "marbledsmelees-1.20.1-1.0.0.jar",
+    "modId": "marbledsmelees",
+    "version": "1.20.1-1.0.0"
   },
   "mcore-1.20.1-1.0.3.0.jar": {
     "jarName": "mcore-1.20.1-1.0.3.0.jar",
@@ -695,10 +700,10 @@
     "modId": "sawmill",
     "version": "1.20-1.4.10"
   },
-  "ScorchedGuns-0.4.5-1.20.1.jar": {
-    "jarName": "ScorchedGuns-0.4.5-1.20.1.jar",
+  "ScorchedGuns-0.4.6.5-1.20.1.jar": {
+    "jarName": "ScorchedGuns-0.4.6.5-1.20.1.jar",
     "modId": "scguns",
-    "version": "0.4.5"
+    "version": "0.4.6.5"
   },
   "Searchables-forge-1.20.1-1.0.3.jar": {
     "jarName": "Searchables-forge-1.20.1-1.0.3.jar",
@@ -735,10 +740,10 @@
     "modId": "sophisticatedbackpacks",
     "version": "3.24.2.1339"
   },
-  "sophisticatedcore-1.20.1-1.2.85.1127.jar": {
-    "jarName": "sophisticatedcore-1.20.1-1.2.85.1127.jar",
+  "sophisticatedcore-1.20.1-1.2.86.1132.jar": {
+    "jarName": "sophisticatedcore-1.20.1-1.2.86.1132.jar",
     "modId": "sophisticatedcore",
-    "version": "1.2.85.1127"
+    "version": "1.2.86.1132"
   },
   "spark-1.10.53-forge.jar": {
     "jarName": "spark-1.10.53-forge.jar",
@@ -765,10 +770,10 @@
     "modId": "stonezone",
     "version": "1.20-2.9.1"
   },
-  "StorageDrawers-forge-1.20.1-12.14.1.jar": {
-    "jarName": "StorageDrawers-forge-1.20.1-12.14.1.jar",
+  "StorageDrawers-forge-1.20.1-12.14.2.jar": {
+    "jarName": "StorageDrawers-forge-1.20.1-12.14.2.jar",
     "modId": "storagedrawers",
-    "version": "12.14.1"
+    "version": "12.14.2"
   },
   "structure_layout_optimizer-forge-1.0.10.jar": {
     "jarName": "structure_layout_optimizer-forge-1.0.10.jar",
@@ -805,10 +810,10 @@
     "modId": "vintageimprovements",
     "version": "1.20.1-0.3.5.0"
   },
-  "windswept-1.20.1-3.0.0.jar": {
-    "jarName": "windswept-1.20.1-3.0.0.jar",
+  "windswept-1.20.1-3.0.1.jar": {
+    "jarName": "windswept-1.20.1-3.0.1.jar",
     "modId": "windswept",
-    "version": "3.0.0"
+    "version": "3.0.1"
   },
   "witherreincarnated-1.20.1-1.0.5.jar": {
     "jarName": "witherreincarnated-1.20.1-1.0.5.jar",

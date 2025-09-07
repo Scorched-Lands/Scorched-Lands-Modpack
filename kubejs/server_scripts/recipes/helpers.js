@@ -1,6 +1,6 @@
 function replaceitem(event, toBeReplaced, replacingItem) {
   event.replaceInput({ input: toBeReplaced }, toBeReplaced, replacingItem);
-};
+}
 
 function makeJsonIngredients(inputs) {
   let finalInputs = [];
@@ -71,3 +71,62 @@ function alloying(event, smeltOutput, procOutput, inputs) {
     .xp(2)
     .id(`kubejs:alloysmelting/${smeltOutput.split(":")[1]}`);
 }
+
+function bullet_production(
+  event,
+  round,
+  casing,
+  propellant,
+  bullet,
+  incompleteRound
+) {
+  event.custom({
+    type: "scguns:mechanical_pressing",
+    processingTime: 20,
+    ingredients: [{ item: casing }, { item: propellant }, { item: bullet }],
+    result: { item: round, count: 1 },
+  });
+  event.custom({
+    type: "scguns:powered_mechanical_pressing",
+    processingTime: 10,
+    energyUse: 500,
+    ingredients: [{ item: casing }, { item: propellant }, { item: bullet }],
+    result: { item: round, count: 1 },
+  });
+  event.recipes.create
+    .sequenced_assembly([round], casing, [
+      event.recipes.createDeploying(incompleteRound, [
+        incompleteRound,
+        propellant,
+      ]),
+      event.recipes.createDeploying(incompleteRound, [incompleteRound, bullet]),
+      event.recipes.createPressing(incompleteRound, incompleteRound),
+    ])
+    .transitionalItem(incompleteRound)
+    .loops(1);
+  event.remove({ output: round });
+}
+
+// function amadron(event, input, output) {
+//   input = Item.of(input)
+//   output = Item.of(output)
+//   event.custom({
+//     type: "pneumaticcraft:amadron",
+//     id: `scorched_lands:amadron/${output.id}`,
+//     input: [
+//       {
+//         type: "ITEM",
+//         amount: input.count,
+//         id: input.id,
+//       },
+//     ],
+//     output: [
+//       {
+//         type: "ITEM",
+//         amount: output.count,
+//         id: output.id,
+//       },
+//     ],
+//     static: true,
+//   });
+// }

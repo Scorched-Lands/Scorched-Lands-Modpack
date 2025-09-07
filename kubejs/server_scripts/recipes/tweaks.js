@@ -60,4 +60,7 @@ ServerEvents.recipes((event) => {
   event.shapeless('create_central_kitchen:cooking_guide', ['vintageimprovements:andesite_sheet', '#forge:crops'])
   event.shapeless('4x create:schedule', ['vintageimprovements:andesite_sheet', 'create:railway_casing'])
   event.shapeless('railways:fuel_tank', ['create:fluid_tank', 'create:railway_casing'])
+  event.shaped('12x minecraft:string', ['AA', 'AA', 'AA'], {
+    A: 'nirvana:hemp_cloth'
+  })
 });

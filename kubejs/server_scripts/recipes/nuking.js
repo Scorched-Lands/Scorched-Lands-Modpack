@@ -2,7 +2,19 @@
 // tables, recipes, tags, ect.
 
 global.nukelist = [
-  'create:sturdy_sheet',
+  "minecraft:diamond_shovel",
+  "minecraft:diamond_pickaxe",
+  "minecraft:diamond_axe",
+  "minecraft:diamond_hoe",
+  "minecraft:diamond_sword",
+  "minecraft:diamond_helmet",
+  "minecraft:diamond_chestplate",
+  "minecraft:diamond_leggings",
+  "minecraft:diamond_boots",
+  "born_in_chaos_v1:diamond_termite_shard",
+  "farmersdelight:diamond_knife",
+  "actuallyadditions:flax_seeds",
+  "create:sturdy_sheet",
   "@mcore",
   "actuallyadditions:bats_wing",
   "actuallyadditions:canola_press",
