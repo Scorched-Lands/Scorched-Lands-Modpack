@@ -45,6 +45,7 @@ ServerEvents.recipes((event) => {
     'immersive_aircraft:hull',
     'actuallyadditions:energizer',
     'create:mixing/andesite_alloy',
+    'scguns:plasma'
   ];
   const removedInputs = [];
   const removedOutputs = [];
