@@ -2,6 +2,7 @@
 // tables, recipes, tags, ect.
 
 global.nukelist = [
+  'create:clipboard',
   "minecraft:diamond_shovel",
   "minecraft:diamond_pickaxe",
   "minecraft:diamond_axe",

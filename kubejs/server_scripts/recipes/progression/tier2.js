@@ -4,6 +4,7 @@ ServerEvents.recipes((event) => {
     A: "#forge:plates/copper",
     B: "scguns:copper_blueprint",
   });
+  event.shapeless('create:fluid_tank', ["scguns:copper_blueprint", "2x #forge:plates/copper"])
   event.shaped("minecraft:enchanting_table", [" A ", "BCB", "CCC"], {
     A: "minecraft:book",
     B: "compressedcreativity:brass_gilded_lapis_lazuli",
@@ -44,7 +45,7 @@ ServerEvents.recipes((event) => {
   });
   event.shaped('immersive_aircraft:boiler', ['AAA', 'ABA', 'CDC'], {
     A: '#forge:ingots/copper',
-    B: 'scguns:copper_blueprint',
+    B: 'create:fluid_tank',
     C: '#forge:storage_blocks/copper',
     D: 'minecraft:furnace'
   });

@@ -108,8 +108,8 @@ function bullet_production(
 }
 
 // function amadron(event, input, output) {
-//   input = Item.of(input)
-//   output = Item.of(output)
+//   input = makeJsonIngredients(input)
+//   output = makeJsonIngredients(output)
 //   event.custom({
 //     type: "pneumaticcraft:amadron",
 //     id: `scorched_lands:amadron/${output.id}`,
@@ -127,6 +127,12 @@ function bullet_production(
 //         id: output.id,
 //       },
 //     ],
-//     static: true,
+//     static: false,
 //   });
+// }
+
+// function fermenting(event, fluid, inputs, output) {
+//   event.custom({
+
+//   })
 // }
