@@ -2,6 +2,11 @@ ServerEvents.recipes((event) => {
   const removedTypes = [];
 
   const removedIDs = [
+    'sophisticatedbackpacks:gold_backpack',
+    'sophisticatedbackpacks:diamond_backpack',
+    'sophisticatedbackpacks:netherite_backpack',
+    'sophisticatedbackpacks:iron_backpack_from_copper',
+    'sophisticatedbackpacks:iron_backpack',
     "actuallyadditions:atomic_reconstructor",
     "actuallyadditions:basic_coil",
     "actuallyadditions:coal_generator",
@@ -45,7 +50,23 @@ ServerEvents.recipes((event) => {
     'immersive_aircraft:hull',
     'actuallyadditions:energizer',
     'create:mixing/andesite_alloy',
-    'scguns:plasma'
+    'scguns:plasma',
+    'scguns:create/treated_iron_crushing',
+    'createbigcannons:melting/melt_cast_iron_ingot',
+    'scguns:create/diamond_steel_blend_from_mixing',
+    'scguns:create/diamond_steel_ingot_from_mixing',
+    'pneumaticcraft:compressed_iron_block_from_ingot',
+    'create:splashing/gravel',
+    'minecraft:copper_ingot_smelt_recycle',
+    'minecraft:copper_ingot_blast_recycle',
+    'create:crushing/veridium',
+    'create:crushing/veridium_recycling',
+    'create:splashing/soul_sand',
+    'create:crushing/ochrum',
+    'create:crushing/ochrum_recycling',
+    'scguns:macerator/scorched_blend_from_macerating',
+    'scguns:powered_macerator/powered_scorched_blend_from_macerating',
+    'scguns:create/scorched_blend_from_mixing'
   ];
   const removedInputs = [];
   const removedOutputs = [];
