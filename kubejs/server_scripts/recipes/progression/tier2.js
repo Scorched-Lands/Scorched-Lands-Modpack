@@ -15,24 +15,6 @@ ServerEvents.recipes((event) => {
     B: "scguns:treated_iron_ingot",
     C: "pneumaticcraft:reinforced_stone",
   });
-  event.shaped("mininggadgets:mininggadget_simple", ["AAD", "ABC", "A  "], {
-    A: "scguns:treated_iron_ingot",
-    B: "#forge:storage_blocks/redstone",
-    C: 'scguns:energy_core',
-    D: "scguns:iron_blueprint",
-  });
-  event.shaped("mininggadgets:mininggadget_fancy", ["AAD", "ACB", "A  "], {
-    A: "scguns:treated_iron_ingot",
-    B: "#forge:storage_blocks/redstone",
-    C: 'scguns:energy_core',
-    D: "scguns:iron_blueprint",
-  });
-  event.shaped("mininggadgets:mininggadget", ["AAD", "BCA", "A  "], {
-    A: "scguns:treated_iron_ingot",
-    B: "#forge:storage_blocks/redstone",
-    C: 'scguns:energy_core',
-    D: "scguns:iron_blueprint",
-  });
   event.shaped("actuallyadditions:coal_generator", ["ABA", "ACA", "AAA"], {
     A: "pneumaticcraft:reinforced_stone",
     B: "#forge:dusts/redstone",

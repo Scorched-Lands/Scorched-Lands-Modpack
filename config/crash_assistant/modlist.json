@@ -19,11 +19,6 @@
     "modId": "actuallyadditions",
     "version": "1.2.14.14+mc1.20.1"
   },
-  "almostunified-forge-1.20.1-0.10.1.jar": {
-    "jarName": "almostunified-forge-1.20.1-0.10.1.jar",
-    "modId": "almostunified",
-    "version": "1.20.1-0.10.1"
-  },
   "alternate_current-mc1.20-1.7.0.jar": {
     "jarName": "alternate_current-mc1.20-1.7.0.jar",
     "modId": "alternate_current",
@@ -109,11 +104,6 @@
     "modId": "buildinggadgets2",
     "version": "1.0.8"
   },
-  "CBC Chemical Warfare v0.50.jar": {
-    "jarName": "CBC Chemical Warfare v0.50.jar",
-    "modId": "cbc_cw",
-    "version": "0.50"
-  },
   "cbc_at_Forge_1.20.1_0.1.3b.jar": {
     "jarName": "cbc_at_Forge_1.20.1_0.1.3b.jar",
     "modId": "cbc_at",
@@ -138,6 +128,11 @@
     "jarName": "Clumps-forge-1.20.1-12.0.0.4.jar",
     "modId": "clumps",
     "version": "12.0.0.4"
+  },
+  "compressedcreativity-1.20.1-0.2.0-all.jar": {
+    "jarName": "compressedcreativity-1.20.1-0.2.0-all.jar",
+    "modId": "compressedcreativity",
+    "version": "1.20.1-0.2.0"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
