@@ -1,20 +1,12 @@
 {
-  "size": "small",
+  "size": "large",
   "color": "#F2C089",
   "waves": [
     {
       "entities": [
         {
-          "entity": "scguns:hive",
-          "count": 1
-        },
-        {
-          "entity": "scguns:blunderer",
-          "count": 1
-        },
-        {
-          "entity": "scguns:cog_knight",
-          "count": 1
+          "entity": "scguns:sky_carrier",
+          "count": 15
         }
       ],
       "rewards": [
@@ -31,11 +23,19 @@
     {
       "entities": [
         {
-          "entity": "scguns:dissident",
-          "count": 1
+				"type": "apotheosis:boss",
+				"boss": "scorched_lands:quake"
+			  },
+        {
+				"type": "apotheosis:boss",
+				"boss": "scorched_lands:quake"
+			  },
+        {
+          "entity": "scguns:cog_knight",
+          "count": 4
         },
         {
-          "entity": "scguns:swarm",
+          "entity": "scguns:cog_minion",
           "count": 4
         }
       ],
@@ -47,14 +47,16 @@
           "desc": "treated_brass_wave"
         }
       ],
-      "max_wave_time": 800,
+      "max_wave_time": 1600,
       "setup_time": 150
     },
     {
-			"entities": [{
+			"entities": [
+        {
 				"type": "apotheosis:boss",
-				"boss": "scorched_lands:treated_iron_boss"
-			}],
+				"boss": "scorched_lands:mother_spider"
+			  }
+    ],
       "rewards": [
         {
           "type": "gateways:loot_table",
@@ -63,8 +65,8 @@
           "desc": "treated_brass_wave"
         }
       ],
-      "max_wave_time": 800,
-      "setup_time": 200
+      "max_wave_time": 1200,
+      "setup_time": 300
     }
   ],
   "rewards": [

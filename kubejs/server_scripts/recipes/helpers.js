@@ -107,6 +107,27 @@ function bullet_production(
   event.remove({ output: round });
 }
 
+function stackShaped(result, pattern, key) {
+    for (let i in key) {
+        let stack = Item.of(key[i])
+        key[i] = {
+            item: stack.id.toString(),
+            count: stack.count
+        }
+    }
+    result = Item.of(result)
+    let recipe = {
+        type: "stackcrafting:stack_crafting",
+        category: "misc",
+        key: key,
+        pattern: pattern,
+        result: {
+            item: result.id,
+            count: result.count
+        }
+    }
+}
+
 // function amadron(event, input, output) {
 //   input = makeJsonIngredients(input)
 //   output = makeJsonIngredients(output)

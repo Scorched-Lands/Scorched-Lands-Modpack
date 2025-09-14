@@ -40,7 +40,7 @@
 
 [categories]
 	automation = false
-	building = false
+	building = true
 	management = false
 	tools = false
 	tweaks = false
@@ -108,7 +108,7 @@
 		"Delayed Update List" = ["minecraft:dispenser", "minecraft:dropper"]
 
 [building]
-	"Celebratory Lamps" = true
+	"Celebratory Lamps" = false
 	"Compressed Blocks" = true
 	"Duskbound Blocks" = true
 	"Framed Glass" = true
@@ -138,10 +138,10 @@
 	"Variant Chests" = true
 	"Variant Furnaces" = true
 	"Variant Ladders" = true
-	"Vertical Planks" = true
+	"Vertical Planks" = false
 	"Vertical Slabs" = true
-	"Wooden Posts" = true
-	"More Stone Variants" = true
+	"Wooden Posts" = false
+	"More Stone Variants" = false
 
 	[building.celebratory_lamps]
 		"Light Level" = 15

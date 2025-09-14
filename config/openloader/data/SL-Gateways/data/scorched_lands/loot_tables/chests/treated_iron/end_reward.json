@@ -7,15 +7,15 @@
         {
           "type": "apotheosis:random_affix_item",
           "entries": [
-            "scorched_lands:treated_iron_gate/scguns_blunderbuss_common",
-            "scorched_lands:treated_iron_gate/scguns_callwell_common",
-            "scorched_lands:treated_iron_gate/scguns_callwell_conversion_common",
-            "scorched_lands:treated_iron_gate/scguns_flintlock_pistol_common",
-            "scorched_lands:treated_iron_gate/scguns_handcannon_common",
-            "scorched_lands:treated_iron_gate/scguns_musket_common",
-            "scorched_lands:treated_iron_gate/scguns_repeating_musket_common",
-            "scorched_lands:treated_iron_gate/scguns_saketini_common",
-            "scorched_lands:treated_iron_gate/scguns_winnie_common"
+            "scorched_lands:treated_iron_gate/scguns_blunderbuss",
+            "scorched_lands:treated_iron_gate/scguns_callwell",
+            "scorched_lands:treated_iron_gate/scguns_callwell_conversion",
+            "scorched_lands:treated_iron_gate/scguns_flintlock_pistol",
+            "scorched_lands:treated_iron_gate/scguns_handcannon",
+            "scorched_lands:treated_iron_gate/scguns_musket",
+            "scorched_lands:treated_iron_gate/scguns_repeating_musket",
+            "scorched_lands:treated_iron_gate/scguns_saketini",
+            "scorched_lands:treated_iron_gate/scguns_winnie"
           ]
         }
       ]

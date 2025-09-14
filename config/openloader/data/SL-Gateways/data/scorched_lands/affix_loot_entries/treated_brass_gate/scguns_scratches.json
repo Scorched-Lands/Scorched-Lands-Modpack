@@ -1,0 +1,15 @@
+{
+	"dimensions": [
+		"minecraft:overworld"
+	],
+	"min_rarity": "apotheosis:uncommon",
+	"max_rarity": "apotheosis:rare",
+	"weight": 1,
+	"stack": {
+		"item": "scguns:scratches",
+		"count": 1,
+		"nbt": {
+			"Damage": 0
+		}
+	}
+}

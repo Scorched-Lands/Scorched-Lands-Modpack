@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "apotheosis:random_affix_item",
+          "entries": [
+            "scorched_lands:treated_brass_gate/scguns_m22_waltz",
+            "scorched_lands:treated_brass_gate/scguns_waltz_conversion",
+            "scorched_lands:treated_brass_gate/scguns_osgood_50",
+            "scorched_lands:treated_brass_gate/scguns_gauss_rifle",
+            "scorched_lands:treated_brass_gate/scguns_niami",
+            "scorched_lands:treated_brass_gate/scguns_spitfire",
+            "scorched_lands:treated_brass_gate/scguns_gattaler",
+            "scorched_lands:treated_brass_gate/scguns_thunderhead",
+            "scorched_lands:treated_brass_gate/scguns_cogloader",
+            "scorched_lands:treated_brass_gate/scguns_dozier_rl",
+            "scorched_lands:treated_brass_gate/scguns_cr4k_mining_laser",
+            "scorched_lands:treated_brass_gate/scguns_grandle",
+            "scorched_lands:treated_brass_gate/scguns_scratches",
+            "scorched_lands:treated_brass_gate/scguns_gale",
+            "scorched_lands:treated_brass_gate/scguns_jackhammer",
+            "scorched_lands:treated_brass_gate/scguns_howler",
+            "scorched_lands:treated_brass_gate/scguns_howler_conversion"
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "scguns:treated_brass_blueprint"
+        }
+      ]
+    }
+  ],
+  "functions": []
+}
