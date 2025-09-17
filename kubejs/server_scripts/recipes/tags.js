@@ -8,6 +8,7 @@ ServerEvents.tags("item", (event) => {
   event.add('createbigcannons:ingot_cast_iron', 'scguns:treated_iron_ingot')
   event.add('forge:ingots/cast_iron', 'scguns:treated_iron_ingot')
   event.add('c:ingots/cast_iron', 'scguns:treated_iron_ingot')
+  event.add('forge:storage_blocks/brass', 'scguns:treated_brass_block')
 });
 
 ServerEvents.tags("block", (event) => {});

@@ -2,8 +2,21 @@
 // tables, recipes, tags, ect.
 
 global.nukelist = [
-  'create:clipboard',
-  'sophisticatedbackpacks:backpack',
+  'actuallyadditions:enervator',
+  'scguns:powered_macerator',
+  'create:brass_block',
+  "actuallyadditions:ethetic_green_block",
+  "actuallyadditions:ethetic_white_block",
+  "actuallyadditions:chiseled_black_quartz_block",
+  "actuallyadditions:ethetic_green_wall",
+  "actuallyadditions:ethetic_white_wall",
+  "actuallyadditions:ethetic_green_slab",
+  "actuallyadditions:ethetic_white_slab",
+  "actuallyadditions:ethetic_green_stairs",
+  "actuallyadditions:ethetic_white_stairs",
+  "actuallyadditions:coal_generator",
+  "create:clipboard",
+  "sophisticatedbackpacks:backpack",
   "@mcore",
   "actuallyadditions:bats_wing",
   "actuallyadditions:canola_press",

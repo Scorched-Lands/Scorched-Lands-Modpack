@@ -15,11 +15,6 @@ ServerEvents.recipes((event) => {
     B: "scguns:treated_iron_ingot",
     C: "pneumaticcraft:reinforced_stone",
   });
-  event.shaped("actuallyadditions:coal_generator", ["ABA", "ACA", "AAA"], {
-    A: "pneumaticcraft:reinforced_stone",
-    B: "#forge:dusts/redstone",
-    C: "minecraft:furnace",
-  });
   event.shaped('mininggadgets:modificationtable', ['AAA', 'BCB', 'BBB'], {
     A: '#forge:gems/quartz',
     B: '#forge:ingots/iron',
@@ -50,6 +45,20 @@ ServerEvents.recipes((event) => {
     A: 'pneumaticcraft:reinforced_stone',
     B: 'scguns:energy_core'
   })
+  stackShaped(event, Item.of('gateways:gate_pearl', '{gateway:"scorched_lands:progression/treated_brass_gate"}'), ['ABA'], {
+    "A": '8x create:electron_tube',
+    "B": '16x scguns:treated_brass_ingot'
+})
+event.shaped('immersive_aircraft:enhanced_propeller', [' A ', 'ABA', ' A '], {
+  A: '#forge:plates/brass',
+  B: 'create:propeller'
+})
+event.shaped('immersive_aircraft:steel_boiler', ['ABA', 'ACA', 'DDD'], {
+  A: '#forge:plates/brass',
+  B: 'scguns:treated_brass_blueprint',
+  C: 'immersive_aircraft:boiler',
+  D: '#forge:storage_blocks/brass'
+})
   event.recipes.create.compacting(Fluid.of('actuallyadditions:canola_oil', 100), '#forge:crops/canola')
   maceratorBuilder(event, '2x create:andesite_alloy', ['#forge:stone', '#forge:nuggets', '#forge:nuggets', '#forge:stone'])
   infusion(event, "mininggadgets:upgrade_fortune_3", "minecraft:diamond_block", 15, 20, 0);

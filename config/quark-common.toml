@@ -39,12 +39,12 @@
 		"Middle Y" = 0
 
 [categories]
-	automation = false
+	automation = true
 	building = true
-	management = false
+	management = true
 	tools = false
 	tweaks = false
-	world = false
+	world = true
 	mobs = false
 	client = false
 	experimental = false
@@ -1558,7 +1558,7 @@
 	Camera = true
 	"Chest Searching" = true
 	"Elytra Indicator" = true
-	"Greener Grass" = true
+	"Greener Grass" = false
 	"Improved Tooltips" = true
 	"Long Range Pick Block" = true
 	"Microcrafting Helper" = true

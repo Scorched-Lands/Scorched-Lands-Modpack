@@ -66,10 +66,15 @@ ServerEvents.recipes((event) => {
     'create:crushing/ochrum_recycling',
     'scguns:macerator/scorched_blend_from_macerating',
     'scguns:powered_macerator/powered_scorched_blend_from_macerating',
-    'scguns:create/scorched_blend_from_mixing'
+    'scguns:create/scorched_blend_from_mixing',
+    'scguns:plasma_core',
+    'scguns:plasma_block_charging',
   ];
   const removedInputs = [];
-  const removedOutputs = [];
+  const removedOutputs = [
+    '@marbledsarsenal',
+    '@marbledsmelees'
+  ];
 
   removedTypes.forEach((type) => event.remove({ type: type }));
   removedIDs.forEach((id) => event.remove({ id: id }));

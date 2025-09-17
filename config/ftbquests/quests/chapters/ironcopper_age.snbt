@@ -220,6 +220,23 @@
 			x: -1.0d
 			y: 0.5d
 		}
+		{
+			dependencies: ["6D2E5CCD8B3ADA9E"]
+			id: "3290C0304537E4D0"
+			tasks: [{
+				id: "460D1F45ED68FEC0"
+				item: {
+					Count: 1
+					id: "gateways:gate_pearl"
+					tag: {
+						gateway: "scorched_lands:progression/treated_brass_gate"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.5d
+		}
 	]
 	title: "Thrive"
 }

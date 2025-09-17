@@ -1,0 +1,17 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "I'm trapped inside of a pack.mcmeta file, help me!"
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "irons_spellbooks"
+      },
+      {
+        "namespace": "fallen_gems_affixes",
+        "path": "affixes/staffs/mob_effect"
+      }
+    ]
+  }
+}

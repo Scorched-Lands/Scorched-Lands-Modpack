@@ -107,7 +107,7 @@ function bullet_production(
   event.remove({ output: round });
 }
 
-function stackShaped(result, pattern, key) {
+function stackShaped(event, result, pattern, key) {
     for (let i in key) {
         let stack = Item.of(key[i])
         key[i] = {
@@ -126,6 +126,8 @@ function stackShaped(result, pattern, key) {
             count: result.count
         }
     }
+    console.log(recipe)
+    event.custom(recipe)
 }
 
 // function amadron(event, input, output) {

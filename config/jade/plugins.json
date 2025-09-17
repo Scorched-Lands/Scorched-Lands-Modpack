@@ -1,18 +1,4 @@
 {
-  "ytech": {
-    "tree_stump": true,
-    "bronze_anvil": true,
-    "drying_racks": true,
-    "irrigation": true,
-    "tanning_racks": true,
-    "wooden_box": true,
-    "fire_pit": true,
-    "amphora": true,
-    "tool_rack": true,
-    "potters_wheel": true,
-    "primitive_machines": true,
-    "millstone": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -64,6 +50,12 @@
     "potion_effects": true,
     "painting": true,
     "chiseled_bookshelf": true
+  },
+  "eclipticseasons": {
+    "animal": true,
+    "crop": true,
+    "snowy_status": true,
+    "crop.shift_hint": true
   },
   "mbd2": {
     "recipe_logic_provider": true,
