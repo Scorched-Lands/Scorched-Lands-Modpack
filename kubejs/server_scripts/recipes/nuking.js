@@ -51,7 +51,6 @@ global.nukelist = [
   "apotheosis:endshelf",
   "apotheosis:filtering_shelf",
   "apotheosis:gem_dust",
-  "apotheosis:gem",
   "apotheosis:glowing_hellshelf",
   "apotheosis:heart_seashelf",
   "apotheosis:hellshelf",
