@@ -12,13 +12,48 @@ global.materialNodes = [
   "sulfur",
   "vehement_coal",
   "zinc",
+  "netherite"
 ];
+
+global.metalMaterials = [
+  "anthralite",
+  "copper",
+  "gold",
+  "iron",
+  "zinc",
+  "netherite"
+]
+
+global.dustMaterials = [
+  "coal",
+  "redstone",
+  "sulfur",
+  "vehement_coal",
+]
+
+global.gemMaterials = [
+  "diamond",
+  "lapis",
+  "quartz",
+  "ruby",
+]
 
 // ITEMS
 
 StartupEvents.registry("item", (event) => {
   global.materialNodes.forEach((material) => {
     event.create(`${material}_clump`).maxStackSize(16);
+  });
+  global.dustMaterials.forEach((dust) => {
+    event.create((`pulverized_${dust}_dust`))
+    event.create((`powdered_${dust}_dust`))
+  });
+    global.metalMaterials.forEach((metal) => {
+    event.create(`pulverized_${metal}`)
+    event.create(`${metal}_crystals`)
+    event.create(`caustic_${metal}`)
+    event.create(`sculked_${metal}`)
+    event.create(`purified_${metal}`)
   });
 });
 
@@ -38,5 +73,15 @@ StartupEvents.registry("block", (event) => {
       .tagBlock("c:relocation_not_supported")
       .tagBlock("create:non_movable")
       .tagBlock("create:non_breakable");
+  });
+});
+
+// FLUIDS
+
+StartupEvents.registry("fluid", (event) => {
+  global.metalMaterials.forEach((metal) => {
+    event
+      .create(`${metal}_slurry`)
+      .tag(`kubejs:${metal}_slurry`)
   });
 });

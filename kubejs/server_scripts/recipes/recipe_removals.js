@@ -2,6 +2,7 @@ ServerEvents.recipes((event) => {
   const removedTypes = [];
 
   const removedIDs = [
+    'apotheosis:reforging_table',
     'sophisticatedbackpacks:gold_backpack',
     'sophisticatedbackpacks:diamond_backpack',
     'sophisticatedbackpacks:netherite_backpack',
