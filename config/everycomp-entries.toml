@@ -41,6 +41,9 @@
 			ancient = true
 			blossom = true
 
+		[types.wood_type.culturaldelights]
+			avocado = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.culturaldelights]

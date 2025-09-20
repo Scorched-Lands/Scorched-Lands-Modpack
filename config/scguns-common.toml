@@ -46,7 +46,7 @@
 		#Range: 0.01 ~ 10.0
 		globalDamageMultiplier = 1.0
 		#If true, the Brass Mask ritual will never spawn villagers. When disabled, it will spawn Dissidents instead based on the spawn chance below.
-		disableVillagerSpawning = false
+		disableVillagerSpawning = true
 		#When villager spawning is disabled, this is the chance (0.0 to 1.0) that a Dissident will spawn. If a Dissident doesn't spawn, nothing will be created from the ritual.
 		#Range: 0.0 ~ 1.0
 		dissidentSpawnChance = 0.1
@@ -163,13 +163,13 @@
 				radius = 15.0
 				#Effect will have this duration (in ticks) if the grenade is directly at the player's eyes while looking directly at it.
 				#Range: > 0
-				durationMax = 280
+				durationMax = 220
 				#Effect will have this duration (in ticks) if the grenade is the maximum distance from the player's eyes while looking directly at it.
 				#Range: > 0
-				durationMin = 100
+				durationMin = 10
 				#Angle between the eye/looking direction and the eye/grenade direction must be no more than half this many degrees to have an effect.
 				#Range: 0.0 ~ 360.0
-				angleEffect = 360.0
+				angleEffect = 170.0
 				#After duration is attenuated by distance, it will be further attenuated depending on the angle (in degrees) between the eye/looking direction and the eye/grenade direction. This is done by multiplying it by 1 (no attenuation) if the angle is 0; and by this value if the angle is the maximum within the angle of effect.
 				#Range: 0.0 ~ 1.0
 				angleAttenuationMax = 0.75

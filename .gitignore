@@ -29,3 +29,4 @@ config/oculus.properties
 config/spark/activity.json
 config/xaerominimap_entities.json
 /.bobby
+fancymenu_data/last_world.fmdata

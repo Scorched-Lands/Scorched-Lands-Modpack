@@ -48,6 +48,8 @@
 	ThunderChancePercentMultiplier = 20
 	#Prevent rain from occurring in biomes without precipitation like desert.
 	NotRainInDesert = false
+	#Clear rain or thunder status after the player sleeps.
+	ClearAfterSleep = false
 
 [Temperature]
 	#Ice or snow layer will melt in warm time.
