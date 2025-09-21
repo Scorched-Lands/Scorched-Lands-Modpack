@@ -1,8 +1,9 @@
 {
   "parent": "kubejs:block/ore_node",
   "textures": {
-    "node": "kubejs:block/copper_node",
+    "node": "kubejs:block/stone",
     "stone_side": "kubejs:block/stone_side",
-	  "stone_bottom": "kubejs:block/stone_bottom"
+	  "stone_bottom": "kubejs:block/stone_bottom",
+    "material": "kubejs:block/copper"
   }
 }
