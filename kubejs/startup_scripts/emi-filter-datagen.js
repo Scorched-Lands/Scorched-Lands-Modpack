@@ -6,6 +6,7 @@ StartupEvents.postInit(event => {
 
   filterCategories([
     "actuallyadditions:crushing",
+    "ali:trade_loot"
   ])
 
   // Writes a filter file from an array of item IDs

@@ -1,0 +1,8 @@
+{
+  "parent": "kubejs:block/ore_node",
+  "textures": {
+    "node": "kubejs:block/ruby_node",
+    "stone_side": "kubejs:block/netherrack_side",
+	  "stone_bottom": "kubejs:block/netherrack_bottom"
+  }
+}

@@ -2,6 +2,9 @@
 	"filters": [
 		{
 			"category": "actuallyadditions:crushing"
+		},
+		{
+			"category": "ali:trade_loot"
 		}
 	]
 }

@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
       type: "createbigcannons:melting",
       heatRequirement: "heated",
       ingredients: [{ item: pulverized }],
-      processingTime: 1620,
+      processingTime: 80,
       results: [{ amount: 1000, fluid: slurry }],
     });
 
@@ -43,4 +43,47 @@ ServerEvents.recipes(event => {
     "kubejs:gold_slurry"
   ])
 
+  metalProcessing([
+    "scguns:anthralite_ingot",
+    "kubejs:anthralite_clump",
+    "kubejs:pulverized_anthralite",
+    "kubejs:anthralite_crystals",
+    "kubejs:caustic_anthralite",
+    "kubejs:sculked_anthralite",
+    "kubejs:purified_anthralite",
+    "kubejs:anthralite_slurry",
+  ]);
+
+  metalProcessing([
+    "minecraft:iron_ingot",
+    "kubejs:iron_clump",
+    "kubejs:pulverized_iron",
+    "kubejs:iron_crystals",
+    "kubejs:caustic_iron",
+    "kubejs:sculked_iron",
+    "kubejs:purified_iron",
+    "kubejs:iron_slurry",
+  ]);
+
+  metalProcessing([
+    "minecraft:copper_ingot",
+    "kubejs:copper_clump",
+    "kubejs:pulverized_copper",
+    "kubejs:copper_crystals",
+    "kubejs:caustic_copper",
+    "kubejs:sculked_copper",
+    "kubejs:purified_copper",
+    "kubejs:copper_slurry",
+  ]);
+
+  metalProcessing([
+    "create:zinc_ingot",
+    "kubejs:zinc_clump",
+    "kubejs:pulverized_zinc",
+    "kubejs:zinc_crystals",
+    "kubejs:caustic_zinc",
+    "kubejs:sculked_zinc",
+    "kubejs:purified_zinc",
+    "kubejs:zinc_slurry",
+  ]);
 })

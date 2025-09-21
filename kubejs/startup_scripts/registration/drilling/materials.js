@@ -12,7 +12,7 @@ global.materialNodes = [
   "sulfur",
   "vehement_coal",
   "zinc",
-  "netherite"
+  // "ancient_debris"
 ];
 
 global.metalMaterials = [
@@ -21,7 +21,7 @@ global.metalMaterials = [
   "gold",
   "iron",
   "zinc",
-  "netherite"
+  // "ancient_debris"
 ]
 
 global.dustMaterials = [
@@ -83,5 +83,8 @@ StartupEvents.registry("fluid", (event) => {
     event
       .create(`${metal}_slurry`)
       .tag(`kubejs:${metal}_slurry`)
+      .tag('minecraft:lava')
+      .thickTexture(0xFF0000)
+      .noBucket()
   });
 });

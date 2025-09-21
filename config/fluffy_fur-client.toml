@@ -18,7 +18,7 @@
 		#Enable custom effect of lightning bolt.
 		lightningBoltEffect = true
 		#Enable custom effect of explosion.
-		explosionEffect = true
+		explosionEffect = false
 
 	#Shaders
 	[graphics.shaders]

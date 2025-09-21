@@ -1,0 +1,35 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "#node",
+		"1": "#stone_side",
+		"2": "#stone_bottom",
+		"particle": "#node"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, -16],
+			"to": [32, 16, 32],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [-16, 0, -16],
+			"to": [32, 16, 32],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			},
+			"forge_data": {
+            "color": "FFFFFFFF",
+            "block_light": 15,
+            "sky_light": 15
+        }
+		}
+	]
+}
