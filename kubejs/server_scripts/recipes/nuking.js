@@ -2,6 +2,8 @@
 // tables, recipes, tags, ect.
 
 global.nukelist = [
+  '@biomancy',
+  'apotheosis:gem',
   'actuallyadditions:enervator',
   'scguns:powered_macerator',
   'create:brass_block',
