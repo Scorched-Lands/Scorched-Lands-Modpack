@@ -2,6 +2,7 @@ ServerEvents.recipes((event) => {
   const removedTypes = [];
 
   const removedIDs = [
+    'biomancy:primordial_core',
     'apotheosis:reforging_table',
     'sophisticatedbackpacks:gold_backpack',
     'sophisticatedbackpacks:diamond_backpack',

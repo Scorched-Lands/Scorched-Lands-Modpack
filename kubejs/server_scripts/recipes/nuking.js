@@ -2,7 +2,9 @@
 // tables, recipes, tags, ect.
 
 global.nukelist = [
-  '@biomancy',
+  'pneumaticcraft:copper_nugget',
+  'createbigcannons:gunpowder_pinch',
+  // 'createbigcannons:shot_balls',
   'apotheosis:gem',
   'actuallyadditions:enervator',
   'scguns:powered_macerator',

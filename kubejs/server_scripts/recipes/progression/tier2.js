@@ -66,7 +66,7 @@ event.shaped('immersive_aircraft:steel_boiler', ['ABA', 'ACA', 'DDD'], {
   infusion(event, "mininggadgets:upgrade_silk", "minecraft:feather", 15, 20, 0);
   infusion(event, "mininggadgets:upgrade_void_junk", "minecraft:obsidian", 15, 20, 0);
   bullet_production(event, 'scguns:energy_core', 'scguns:empty_core', 'minecraft:redstone_block', 'rubinated_nether:ruby', 'scguns:unfinished_plasma_core')
-  pneumaticcraft.pressure_chamber("2x scguns:treated_brass_ingot", ["3x create:zinc_ingot", "4x minecraft:copper_ingot", "minecraft:blaze_powder", "#rubinated_nether:low_ruby"], 4);
+  pneumaticcraft.pressure_chamber("2x scguns:treated_brass_ingot", ["4x minecraft:copper_ingot", "3x create:zinc_ingot", '2x scguns:sheol', "#rubinated_nether:low_ruby"], 4);
   replaceitem(event, 'immersive_aircraft:propeller', 'create:propeller')
   // amadron(event, '2x kubejs:building_coupon', '3x minecraft:coal_block')
 });

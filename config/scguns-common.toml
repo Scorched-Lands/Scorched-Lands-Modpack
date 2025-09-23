@@ -222,3 +222,15 @@
 		#Range: 0.0 ~ 1.7976931348623157E308
 		max_scaled_damage = 1.7976931348623157E308
 
+	#Properties relating to ExoSuit Core capacities
+	[common.exosuit_cores]
+		#Energy capacity for Basic ExoSuit Core
+		#Range: 1000 ~ 100000
+		basicCoreCapacity = 10000
+		#Energy capacity for Advanced ExoSuit Core
+		#Range: 1000 ~ 100000
+		advancedCoreCapacity = 20000
+		#Energy capacity for Elite ExoSuit Core
+		#Range: 1000 ~ 100000
+		eliteCoreCapacity = 30000
+

@@ -27,7 +27,6 @@ ServerEvents.recipes((event) => {
     "apotheosis:treasure_shelf",
     "apotheosis:library",
   ]);
-  // replaceitem(event, 'create:brass_ingot', 'scguns:treated_brass_ingot')
   event.custom({
     type: "brewinandchewin:fermenting",
     basefluid: {
@@ -37,18 +36,10 @@ ServerEvents.recipes((event) => {
     experience: 5,
     fermentingtime: 9600,
     ingredients: [
-      {
-        item: "minecraft:sugar"
-      },
-      {
-        item: "minecraft:sugar"
-      },
-      {
-        item: "minecraft:sugar"
-      },
-      {
-        item: "minecraft:sugar"
-      }
+      {item: "minecraft:sugar"},
+      {item: "minecraft:sugar"},
+      {item: "minecraft:sugar"},
+      {item: "minecraft:sugar"}
     ],
     result: {
       count: 1000,
@@ -63,4 +54,7 @@ ServerEvents.recipes((event) => {
   event.shaped('12x minecraft:string', ['AA', 'AA', 'AA'], {
     A: 'nirvana:hemp_cloth'
   })
+  bullet_production(event, 'createbigcannons:machine_gun_round', 'createbigcannons:empty_machine_gun_round', 'scguns:gunpowder_dust', 'create:copper_nugget', 'createbigcannons:partially_assembled_machine_gun_round')
+  bullet_production(event, 'createbigcannons:ap_autocannon_round', 'scguns:large_iron_casing', 'scguns:anthralite_nugget', 'scguns:anthralite_nugget', 'scguns:large_iron_casing')
+  bullet_production(event, 'createbigcannons:flak_autocannon_round', 'scguns:large_iron_casing', 'minecraft:gunpowder', 'scguns:grapeshot', 'scguns:large_iron_casing')
 });
