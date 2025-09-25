@@ -1,8 +1,9 @@
 {
   "parent": "kubejs:block/ore_node",
   "textures": {
-    "node": "kubejs:block/sulfur_node",
-    "stone_side": "kubejs:block/netherrack_side",
-	  "stone_bottom": "kubejs:block/netherrack_bottom"
+    "node": "kubejs:block/node/sulfur_node",
+    "stone_side": "kubejs:block/node/netherrack_side",
+    "stone_bottom": "kubejs:block/node/netherrack_bottom",
+    "material": "kubejs:block/node/sulfur"
   }
 }
