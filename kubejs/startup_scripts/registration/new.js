@@ -3,7 +3,7 @@ let newItems = [
 ];
 
 let newBlocks = [
- 'output_hatch'
+  'output_hatch'
 ];
 
 
@@ -17,4 +17,4 @@ StartupEvents.registry("block", (event) => {
   newBlocks.forEach((block) => {
     event.create(block);
   });
-  });
+});
