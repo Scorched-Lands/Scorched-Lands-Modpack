@@ -2,6 +2,10 @@ ServerEvents.recipes((event) => {
   const removedTypes = [];
 
   const removedIDs = [
+    'curvy_pipes:item_base',
+    'curvy_pipes:fluid_base',
+    'curvy_pipes:energy_base',
+    'scguns:treated_iron/treated_iron_hopper',
     'biomancy:primordial_core',
     'apotheosis:reforging_table',
     'sophisticatedbackpacks:gold_backpack',

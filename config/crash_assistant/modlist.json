@@ -74,6 +74,11 @@
     "modId": "balm",
     "version": "7.3.35"
   },
+  "BetterClouds-1.1.jar": {
+    "jarName": "BetterClouds-1.1.jar",
+    "modId": "betterclouds",
+    "version": "1.0"
+  },
   "biofactory-forge-1.20.1-0.6.0.jar": {
     "jarName": "biofactory-forge-1.20.1-0.6.0.jar",
     "modId": "biofactory",
@@ -249,6 +254,11 @@
     "modId": "curios",
     "version": "5.14.1+1.20.1"
   },
+  "curvy_pipes-1.20.1-1.13.1.jar": {
+    "jarName": "curvy_pipes-1.20.1-1.13.1.jar",
+    "modId": "curvy_pipes",
+    "version": "1.13.1"
+  },
   "customoreveins-1.20-1.0.0-forge.jar": {
     "jarName": "customoreveins-1.20-1.0.0-forge.jar",
     "modId": "customoreveins",
@@ -393,6 +403,11 @@
     "jarName": "forge-runiclib-1.20.1-4.3.7.jar",
     "modId": "runiclib",
     "version": "4.3.7"
+  },
+  "forge-urban_decor-1.20.1-1.0.6.jar": {
+    "jarName": "forge-urban_decor-1.20.1-1.0.6.jar",
+    "modId": "urban_decor",
+    "version": "1.0.6"
   },
   "framework-forge-1.20.1-0.7.15.jar": {
     "jarName": "framework-forge-1.20.1-0.7.15.jar",
@@ -670,11 +685,6 @@
     "modId": "opposing_force",
     "version": "1.0.0"
   },
-  "particlerain-4.0.0-alpha.3+1.20.1-forge.jar": {
-    "jarName": "particlerain-4.0.0-alpha.3+1.20.1-forge.jar",
-    "modId": "particlerain",
-    "version": "4.0.0-alpha.3+1.20.1-forge"
-  },
   "Patchouli-1.20.1-84.1-FORGE.jar": {
     "jarName": "Patchouli-1.20.1-84.1-FORGE.jar",
     "modId": "patchouli",
@@ -819,6 +829,11 @@
     "jarName": "Steam_Rails-1.6.13-alpha+forge-mc1.20.1.jar",
     "modId": "railways",
     "version": "1.6.13-alpha+forge-mc1.20.1"
+  },
+  "Stellar View-1.20.1-0.5.1-Forge.jar": {
+    "jarName": "Stellar View-1.20.1-0.5.1-Forge.jar",
+    "modId": "stellarview",
+    "version": "0.5.1"
   },
   "stonezone-1.20-2.9.3.jar": {
     "jarName": "stonezone-1.20-2.9.3.jar",

@@ -148,6 +148,9 @@
 			myalite = true
 			permafrost = true
 
+		[types.stone_type.urban_decor]
+			chromite = true
+
 #Disables specific entries
 [entries]
 
