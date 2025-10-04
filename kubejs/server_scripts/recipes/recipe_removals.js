@@ -2,6 +2,8 @@ ServerEvents.recipes((event) => {
   const removedTypes = [];
 
   const removedIDs = [
+    'embers:mixing/molten_brass',
+    'orbital_railgun:orbital_railgun',
     "industrialforegoing:dissolution_chamber/infinity_backpack",
     "industrialforegoing:dissolution_chamber/infinity_saw",
     "industrialforegoing:dissolution_chamber/infinity_trident",

@@ -2,6 +2,8 @@
 // tables, recipes, tags, ect.
 
 global.nukelist = [
+  'vintageimprovements:aluminum_sheet',
+  'vintageimprovements:cast_iron_sheet',
   "embers:silver_ingot",
   "embers:silver_plate",
   "embers:silver_block",
