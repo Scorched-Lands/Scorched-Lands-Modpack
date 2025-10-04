@@ -1,0 +1,10 @@
+
+[orbital_railgun]
+	#Damage dealt by the orbital strike to entities within its radius.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	strikeDamage = 100000.0
+	#Whether the orbital strike breaks bedrock within its blast radius.
+	breakBedrock = false
+	#Whether entities are pulled towards the strike before detonation.
+	suckEntities = true
+

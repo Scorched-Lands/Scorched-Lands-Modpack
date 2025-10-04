@@ -690,6 +690,11 @@
     "modId": "opposing_force",
     "version": "1.0.0"
   },
+  "orbital_railgun-1.0.1.jar": {
+    "jarName": "orbital_railgun-1.0.1.jar",
+    "modId": "orbital_railgun",
+    "version": "1.0.1"
+  },
   "Patchouli-1.20.1-84.1-FORGE.jar": {
     "jarName": "Patchouli-1.20.1-84.1-FORGE.jar",
     "modId": "patchouli",
