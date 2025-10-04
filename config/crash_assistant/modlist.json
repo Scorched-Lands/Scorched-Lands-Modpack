@@ -174,10 +174,10 @@
     "modId": "configured",
     "version": "2.2.3"
   },
-  "connectivity-1.20.1-7.1.jar": {
-    "jarName": "connectivity-1.20.1-7.1.jar",
+  "connectivity-1.20.1-7.2.jar": {
+    "jarName": "connectivity-1.20.1-7.2.jar",
     "modId": "connectivity",
-    "version": "1.20.1-7.1"
+    "version": "1.20.1-7.2"
   },
   "Controlling-forge-1.20.1-12.0.2.jar": {
     "jarName": "Controlling-forge-1.20.1-12.0.2.jar",
@@ -254,10 +254,10 @@
     "modId": "curios",
     "version": "5.14.1+1.20.1"
   },
-  "curvy_pipes-1.20.1-1.13.1.jar": {
-    "jarName": "curvy_pipes-1.20.1-1.13.1.jar",
+  "curvy_pipes-1.20.1-1.13.3.jar": {
+    "jarName": "curvy_pipes-1.20.1-1.13.3.jar",
     "modId": "curvy_pipes",
-    "version": "1.13.1"
+    "version": "1.13.3"
   },
   "customoreveins-1.20-1.0.0-forge.jar": {
     "jarName": "customoreveins-1.20-1.0.0-forge.jar",
@@ -274,10 +274,10 @@
     "modId": "delightful",
     "version": "3.7.6"
   },
-  "dew_drop_farmland_growth-4.2.jar": {
-    "jarName": "dew_drop_farmland_growth-4.2.jar",
+  "dew_drop_farmland_growth-4.5.jar": {
+    "jarName": "dew_drop_farmland_growth-4.5.jar",
     "modId": "dew_drop_farmland_growth",
-    "version": "4.2"
+    "version": "4.5"
   },
   "dimdungeons-202-forge-1.20.1.jar": {
     "jarName": "dimdungeons-202-forge-1.20.1.jar",
@@ -294,35 +294,25 @@
     "modId": "dynamic_fps",
     "version": "3.9.5"
   },
-  "EclipticSeasons-1.20.1-forge-0.12.0-pre19-1-2-all.jar": {
-    "jarName": "EclipticSeasons-1.20.1-forge-0.12.0-pre19-1-2-all.jar",
+  "EclipticSeasons-1.20.1-forge-0.12.0-z-all.jar": {
+    "jarName": "EclipticSeasons-1.20.1-forge-0.12.0-z-all.jar",
     "modId": "eclipticseasons",
-    "version": "0.12.0-pre19-1-2"
+    "version": "0.12.0-z"
   },
   "embeddium-0.3.31+mc1.20.1.jar": {
     "jarName": "embeddium-0.3.31+mc1.20.1.jar",
     "modId": "embeddium",
     "version": "0.3.31+mc1.20.1"
   },
+  "embersrekindled-1.20.1-1.4.2.jar": {
+    "jarName": "embersrekindled-1.20.1-1.4.2.jar",
+    "modId": "embers",
+    "version": "1.20.1-1.4.2"
+  },
   "emi-1.1.22+1.20.1+forge.jar": {
     "jarName": "emi-1.1.22+1.20.1+forge.jar",
     "modId": "emi",
     "version": "1.1.22+1.20.1+forge"
-  },
-  "emi_enchanting-0.1.2+1.20.1+forge.jar": {
-    "jarName": "emi_enchanting-0.1.2+1.20.1+forge.jar",
-    "modId": "emi_enchanting",
-    "version": "0.1.2+1.20.1+forge"
-  },
-  "emi_ores-1.2+1.20.1+forge.jar": {
-    "jarName": "emi_ores-1.2+1.20.1+forge.jar",
-    "modId": "emi_ores",
-    "version": "1.2+1.20.1+forge"
-  },
-  "emiffect-forge-1.1.2+mc1.20.1.jar": {
-    "jarName": "emiffect-forge-1.1.2+mc1.20.1.jar",
-    "modId": "emiffect",
-    "version": "1.1.2+mc1.20.1"
   },
   "EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar": {
     "jarName": "EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar",
@@ -344,10 +334,10 @@
     "modId": "euphoria_patcher",
     "version": "1.6.8-r5.5.1-forge"
   },
-  "everycomp-1.20-2.9.3-forge.jar": {
-    "jarName": "everycomp-1.20-2.9.3-forge.jar",
+  "everycomp-1.20-2.9.4-forge.jar": {
+    "jarName": "everycomp-1.20-2.9.4-forge.jar",
     "modId": "everycomp",
-    "version": "1.20-2.9.3"
+    "version": "1.20-2.9.4"
   },
   "fallen_gems_affixes-1.20.1-1.2.9.jar": {
     "jarName": "fallen_gems_affixes-1.20.1-1.2.9.jar",
@@ -479,6 +469,11 @@
     "modId": "incontrol",
     "version": "1.20-9.4.1"
   },
+  "industrial-foregoing-1.20.1-3.5.20.jar": {
+    "jarName": "industrial-foregoing-1.20.1-3.5.20.jar",
+    "modId": "industrialforegoing",
+    "version": "3.5.20"
+  },
   "industrialhellscape_0.2.8_1.20.1.jar": {
     "jarName": "industrialhellscape_0.2.8_1.20.1.jar",
     "modId": "industrialhellscape",
@@ -513,6 +508,16 @@
     "jarName": "JadeAddons-1.20.1-Forge-5.5.0.jar",
     "modId": "jadeaddons",
     "version": "5.5.0+forge"
+  },
+  "jeed-1.20-2.2.5.jar": {
+    "jarName": "jeed-1.20-2.2.5.jar",
+    "modId": "jeed",
+    "version": "1.20-2.2.5"
+  },
+  "kjsindustrialforegoing-1.0.jar": {
+    "jarName": "kjsindustrialforegoing-1.0.jar",
+    "modId": "kjsindustrialforegoing",
+    "version": "1.0"
   },
   "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar": {
     "jarName": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
@@ -602,10 +607,10 @@
     "modId": "mcore",
     "version": "1.0.3.0"
   },
-  "MEED-1.20.1-5.7.jar": {
-    "jarName": "MEED-1.20.1-5.7.jar",
-    "modId": "moderately_enough_effect_desc",
-    "version": "3.3.0"
+  "meed-1.20.1-7.2.jar": {
+    "jarName": "meed-1.20.1-7.2.jar",
+    "modId": "meed",
+    "version": "7.2.0"
   },
   "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar": {
     "jarName": "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
@@ -622,10 +627,10 @@
     "modId": "modernfix",
     "version": "5.24.4+mc1.20.1"
   },
-  "moonlight-1.20-2.16.12-forge.jar": {
-    "jarName": "moonlight-1.20-2.16.12-forge.jar",
+  "moonlight-1.20-2.16.13-forge.jar": {
+    "jarName": "moonlight-1.20-2.16.13-forge.jar",
     "modId": "moonlight",
-    "version": "1.20-2.16.12"
+    "version": "1.20-2.16.13"
   },
   "morejs-forge-1.20.1-0.10.1.jar": {
     "jarName": "morejs-forge-1.20.1-0.10.1.jar",
@@ -704,6 +709,11 @@
     "jarName": "pneumaticcraft-repressurized-6.0.20+mc1.20.1.jar",
     "modId": "pneumaticcraft",
     "version": "6.0.20+mc1.20.1"
+  },
+  "powergrid-mc1.20.1-0.2.5.jar": {
+    "jarName": "powergrid-mc1.20.1-0.2.5.jar",
+    "modId": "powergrid",
+    "version": "0.2.5"
   },
   "Prism-1.20.1-forge-1.0.5.jar": {
     "jarName": "Prism-1.20.1-forge-1.0.5.jar",
@@ -800,15 +810,15 @@
     "modId": "sodiumoptionsapi",
     "version": "1.0.10"
   },
-  "sophisticatedbackpacks-1.20.1-3.24.6.1366.jar": {
-    "jarName": "sophisticatedbackpacks-1.20.1-3.24.6.1366.jar",
+  "sophisticatedbackpacks-1.20.1-3.24.8.1381.jar": {
+    "jarName": "sophisticatedbackpacks-1.20.1-3.24.8.1381.jar",
     "modId": "sophisticatedbackpacks",
-    "version": "3.24.6.1366"
+    "version": "3.24.8.1381"
   },
-  "sophisticatedcore-1.20.1-1.2.92.1159.jar": {
-    "jarName": "sophisticatedcore-1.20.1-1.2.92.1159.jar",
+  "sophisticatedcore-1.20.1-1.2.95.1174.jar": {
+    "jarName": "sophisticatedcore-1.20.1-1.2.95.1174.jar",
     "modId": "sophisticatedcore",
-    "version": "1.2.92.1159"
+    "version": "1.2.95.1174"
   },
   "spark-1.10.53-forge.jar": {
     "jarName": "spark-1.10.53-forge.jar",
@@ -819,11 +829,6 @@
     "jarName": "species-3.5.jar",
     "modId": "species",
     "version": "3.5"
-  },
-  "stackcrafting-1.20.1-1.0.1.jar": {
-    "jarName": "stackcrafting-1.20.1-1.0.1.jar",
-    "modId": "stackcrafting",
-    "version": "1.20.1-1.0.1"
   },
   "Steam_Rails-1.6.13-alpha+forge-mc1.20.1.jar": {
     "jarName": "Steam_Rails-1.6.13-alpha+forge-mc1.20.1.jar",
@@ -865,6 +870,11 @@
     "modId": "temperaturebands",
     "version": "1.0.0-Forge-1.20.1"
   },
+  "titanium-1.20.1-3.8.32.jar": {
+    "jarName": "titanium-1.20.1-3.8.32.jar",
+    "modId": "titanium",
+    "version": "3.8.32"
+  },
   "toofast-1.20-0.4.3.5.jar": {
     "jarName": "toofast-1.20-0.4.3.5.jar",
     "modId": "toofast",
@@ -895,10 +905,10 @@
     "modId": "windswept",
     "version": "3.0.2"
   },
-  "witherreincarnated-1.20.1-1.0.5.jar": {
-    "jarName": "witherreincarnated-1.20.1-1.0.5.jar",
-    "modId": "witherreincarnated",
-    "version": "1.0.5"
+  "windswept_delights-1.20.1-1.0.0-rc1.jar": {
+    "jarName": "windswept_delights-1.20.1-1.0.0-rc1.jar",
+    "modId": "windswept_delights",
+    "version": "1.0.0"
   },
   "Xaeros_Minimap_25.2.10_Forge_1.20.jar": {
     "jarName": "Xaeros_Minimap_25.2.10_Forge_1.20.jar",

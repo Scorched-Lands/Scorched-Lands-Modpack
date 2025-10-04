@@ -9,6 +9,12 @@ ServerEvents.tags("item", (event) => {
   event.add('forge:ingots/cast_iron', 'scguns:treated_iron_ingot')
   event.add('c:ingots/cast_iron', 'scguns:treated_iron_ingot')
   event.add('forge:storage_blocks/brass', 'scguns:treated_brass_block')
+  event.add('forge:ingots/lead', 'scguns:anthralite_ingot')
+  event.add('forge:storage_blocks/lead', 'scguns:anthralite_block')
+  event.add('forge:ores/lead', '#forge:ores/anthralite')
+  event.add('forge:storage_blocks/raw_lead', '#forge:storage_blocks/raw_anthralite')
+  event.add('forge:nuggets/lead', 'scguns:anthralite_nugget')
+  event.add('forge:raw_materials/lead', 'scguns:raw_anthralite')
 });
 
 ServerEvents.tags("block", (event) => {});

@@ -15,4 +15,5 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('create:andesite_door', 'Gunmetal Door')
   event.renameItem('create:andesite_alloy_block', 'Block of Gunmetal')
   event.renameItem('create:brass_hand', 'Mechanical Hand')
+  event.renameItem('embers:lead_plate', 'Anthralite Plate')
 })

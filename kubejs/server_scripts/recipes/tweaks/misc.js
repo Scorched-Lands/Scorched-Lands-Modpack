@@ -57,4 +57,7 @@ ServerEvents.recipes((event) => {
   bullet_production(event, 'createbigcannons:machine_gun_round', 'createbigcannons:empty_machine_gun_round', 'scguns:gunpowder_dust', 'create:copper_nugget', 'createbigcannons:partially_assembled_machine_gun_round')
   bullet_production(event, 'createbigcannons:ap_autocannon_round', 'scguns:large_iron_casing', 'scguns:anthralite_nugget', 'scguns:anthralite_nugget', 'scguns:large_iron_casing')
   bullet_production(event, 'createbigcannons:flak_autocannon_round', 'scguns:large_iron_casing', 'minecraft:gunpowder', 'scguns:grapeshot', 'scguns:large_iron_casing')
+  replaceitem(event, '#forge:ingots/silver', 'create:zinc_ingot')
+  replaceitem(event, '#forge:plates/silver', 'vintageimprovements:zinc_sheet')
+  replaceitem(event, '#forge:storage_blocks/silver', 'create:zinc_block')
 });

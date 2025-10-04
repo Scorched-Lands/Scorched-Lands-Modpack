@@ -45,10 +45,10 @@ ServerEvents.recipes((event) => {
     A: 'pneumaticcraft:reinforced_stone',
     B: 'scguns:energy_core'
   })
-  stackShaped(event, Item.of('gateways:gate_pearl', '{gateway:"scorched_lands:progression/treated_brass_gate"}'), ['ABA'], {
-    "A": '8x create:electron_tube',
-    "B": '16x scguns:treated_brass_ingot'
-})
+//   stackShaped(event, Item.of('gateways:gate_pearl', '{gateway:"scorched_lands:progression/treated_brass_gate"}'), ['ABA'], {
+//     "A": '8x create:electron_tube',
+//     "B": '16x scguns:treated_brass_ingot'
+// })
 event.shaped('immersive_aircraft:enhanced_propeller', [' A ', 'ABA', ' A '], {
   A: '#forge:plates/brass',
   B: 'create:propeller'
