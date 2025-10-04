@@ -10,44 +10,17 @@ ServerEvents.recipes(function (event) {
     ['minecraft:gold_ingot', 'create:golden_sheet']
   ];
 
-  function fluidTagForOutput(outputId) {
-    var parts = String(outputId).split(":");
-    var path = (parts.length > 1 ? parts[1] : parts[0]) || "";
-    var material = path;
-    var SUFFIXES = ["_plate", "_sheet"];
-
-    for (var i = 0; i < SUFFIXES.length; i++) {
-      var s = SUFFIXES[i];
-      if (material.lastIndexOf(s) === material.length - s.length) {
-        material = material.substring(0, material.length - s.length);
-        break;
-      }
-    }
-    return "forge:molten_" + material;
-  }
-
   stampingRecipes.forEach(function (pair) {
     var input = pair[0];
     var output = pair[1];
 
-    event.remove({ output: output });
+    event.remove({ not: { type: 'embers:stamping' }, output: output });
 
     event
       .shapeless(output, [input, input, "embers:tinker_hammer"])
       .keepIngredient("embers:tinker_hammer");
 
     event.recipes.create.pressing(output, input);
-
-    var tag = fluidTagForOutput(output);
-    event.custom({
-      type: "embers:stamping",
-      fluid: {
-        amount: 90,
-        tag: tag,
-      },
-      output: { item: output },
-      stamp: { item: "embers:plate_stamp" },
-    });
 
     event.custom({
       type: "scguns:mechanical_pressing",
