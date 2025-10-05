@@ -43,10 +43,6 @@
 
 	[types.leaves_type]
 
-		[types.leaves_type.culturaldelights]
-			avocado = true
-			fruiting_avocado = true
-
 		[types.leaves_type.windswept]
 			holly = true
 			chestnut = true

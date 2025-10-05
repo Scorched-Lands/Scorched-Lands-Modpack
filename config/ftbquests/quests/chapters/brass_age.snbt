@@ -7,15 +7,93 @@
 	id: "3F8EBD209B271C66"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "24F75560F3C00F75"
-		tasks: [{
-			id: "4E39C7EBF7E9A3BE"
-			item: "scguns:treated_brass_ingot"
-			type: "item"
-		}]
-		x: -0.5d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			id: "24F75560F3C00F75"
+			tasks: [{
+				id: "4E39C7EBF7E9A3BE"
+				item: "scguns:treated_brass_ingot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "2DAB7E115AA3C180"
+			tasks: [{
+				id: "7B03798CA155B962"
+				item: "create:track"
+				type: "item"
+			}]
+			title: "better recipe"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "75152D7D760FDF60"
+			tasks: [
+				{
+					id: "0655B35AEDF24904"
+					item: "mbd2:impact_node_drill_energy_hatch"
+					type: "item"
+				}
+				{
+					id: "5B96D33BE65FA2FC"
+					item: "mbd2:impact_node_drill_fuel_hatch"
+					type: "item"
+				}
+				{
+					id: "6CD0617A780F7334"
+					item: "mbd2:impact_node_drill_item_hatch"
+					type: "item"
+				}
+				{
+					id: "0101602F9D34FD02"
+					item: "mbd2:impact_node_drill_pressure_hatch"
+					type: "item"
+				}
+				{
+					id: "24E87ADEE1DEC6BD"
+					item: "mbd2:impact_node_drill"
+					type: "item"
+				}
+			]
+			title: "driller i barely know her"
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			id: "63BB53BEE755D2AA"
+			tasks: [{
+				id: "7A2021150E191023"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(kubejs:clumps))"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			id: "7CBFB97362FB6D86"
+			tasks: [{
+				id: "7E13AC6F8AF40C07"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(kubejs:pulverized))"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+	]
 	title: "Expand"
 }

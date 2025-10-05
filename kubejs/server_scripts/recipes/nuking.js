@@ -2,6 +2,11 @@
 // tables, recipes, tags, ect.
 
 global.nukelist = [
+  "embers:raw_flat_stamp",
+  "embers:raw_ingot_stamp",
+  "embers:raw_nugget_stamp",
+  "embers:raw_plate_stamp",
+  "embers:raw_gear_stamp",
   "powergrid:zinc_sheet",
   "embers:iron_plate",
   "embers:copper_plate",
@@ -11,7 +16,7 @@ global.nukelist = [
   "embers:silver_plate",
   "embers:silver_block",
   "embers:silver_crystal_seed",
-  "embers:silver_aspectus",
+  // "embers:silver_aspectus",
   "embers:raw_silver",
   "embers:silver_nugget",
   "embers:silver_ore",
@@ -25,7 +30,7 @@ global.nukelist = [
   "embers:molten_silver_bucket",
   "create:crushed_raw_silver",
   "embers:lead_crystal_seed",
-  "embers:lead_aspectus",
+  // "embers:lead_aspectus",
   "embers:lead_sword",
   "embers:lead_shovel",
   "embers:lead_pickaxe",

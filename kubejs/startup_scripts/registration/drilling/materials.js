@@ -129,6 +129,6 @@ StartupEvents.registry("fluid", (event) => {
       .tag(`kubejs:${metal}_slurry`)
       .tag('minecraft:lava')
       .thickTexture(0xFF0000)
-      .noBucket()
+      // .noBucket()
   });
 });

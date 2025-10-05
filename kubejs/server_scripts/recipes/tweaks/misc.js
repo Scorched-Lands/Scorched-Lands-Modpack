@@ -60,4 +60,8 @@ ServerEvents.recipes((event) => {
   replaceitem(event, '#forge:ingots/silver', 'create:zinc_ingot')
   replaceitem(event, '#forge:plates/silver', 'vintageimprovements:zinc_sheet')
   replaceitem(event, '#forge:storage_blocks/silver', 'create:zinc_block')
+  event.stonecutting('embers:gear_stamp', 'scguns:blank_mold')
+  event.stonecutting('embers:nugget_stamp', 'scguns:blank_mold')
+  event.stonecutting('embers:ingot_stamp', 'scguns:blank_mold')
+  event.stonecutting('embers:plate_stamp', 'scguns:blank_mold')
 });

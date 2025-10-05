@@ -16,4 +16,8 @@ ClientEvents.lang('en_us', event => {
   event.renameItem('create:andesite_alloy_block', 'Block of Gunmetal')
   event.renameItem('create:brass_hand', 'Mechanical Hand')
   event.renameItem('embers:lead_plate', 'Anthralite Plate')
+  event.renameItem('embers:plate_stamp', 'Plate Mold')
+  event.renameItem('embers:ingot_stamp', 'Ingot Mold')
+  event.renameItem('embers:nugget_stamp', 'Nugget Mold')
+  event.renameItem('embers:gear_stamp', 'Gear Mold')
 })
