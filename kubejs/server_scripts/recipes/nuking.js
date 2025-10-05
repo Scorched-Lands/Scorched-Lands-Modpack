@@ -2,8 +2,11 @@
 // tables, recipes, tags, ect.
 
 global.nukelist = [
-  'vintageimprovements:aluminum_sheet',
-  'vintageimprovements:cast_iron_sheet',
+  "powergrid:zinc_sheet",
+  "embers:iron_plate",
+  "embers:copper_plate",
+  "vintageimprovements:aluminum_sheet",
+  "vintageimprovements:cast_iron_sheet",
   "embers:silver_ingot",
   "embers:silver_plate",
   "embers:silver_block",
@@ -107,7 +110,6 @@ global.nukelist = [
   "create:brass_block",
   "create:brass_ingot",
   "create:cart_assembler",
-  "create:clipboard",
   "create:sturdy_sheet",
   "createbigcannons:gunpowder_pinch",
   "eactuallyadditions:chiseled_black_quartz_block",

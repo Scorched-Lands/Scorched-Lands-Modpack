@@ -1,0 +1,9 @@
+{
+  "parent": "kubejs:block/ore_node",
+  "textures": {
+    "node": "kubejs:block/node/stone",
+    "stone_side": "kubejs:block/node/stone_side",
+    "stone_bottom": "kubejs:block/node/stone_bottom",
+    "material": "kubejs:block/node/gold"
+  }
+}
