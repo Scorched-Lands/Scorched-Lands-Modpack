@@ -60,7 +60,8 @@ event.shaped('immersive_aircraft:steel_boiler', ['ABA', 'ACA', 'DDD'], {
   D: '#forge:storage_blocks/brass'
 })
   event.recipes.create.compacting(Fluid.of('actuallyadditions:canola_oil', 100), '#forge:crops/canola')
-  maceratorBuilder(event, '2x create:andesite_alloy', ['#forge:stone', '#forge:nuggets', '#forge:nuggets', '#forge:stone'])
+  maceratorBuilder(event, 'create:andesite_alloy', ['#forge:stone', '#forge:nuggets', '#forge:nuggets', '#forge:stone'])
+  maceratorBuilder(event, '2x create:andesite_alloy', ['#forge:stone', 'scguns:treated_iron_nugget', 'scguns:treated_iron_nugget', '#forge:stone'])
   infusion(event, "mininggadgets:upgrade_fortune_3", "minecraft:diamond_block", 15, 20, 0);
   infusion(event, "mininggadgets:upgrade_freezing", "minecraft:blue_ice", 15, 20, 0);
   infusion(event, "mininggadgets:upgrade_silk", "minecraft:feather", 15, 20, 0);
