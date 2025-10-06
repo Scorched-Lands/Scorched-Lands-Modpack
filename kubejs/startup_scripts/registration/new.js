@@ -22,7 +22,7 @@ StartupEvents.registry("item", (event) => {
 
     event
       .create(`${aspectus}_aspectus`)
-      .texture('kubejs:item/blank_aspectus')
+      .texture('kubejs:item/blank/blank_aspectus')
       .color(color)
       .tag(`embers:aspectus`)
       .tag(`embers:aspectus/${aspectus}`);
