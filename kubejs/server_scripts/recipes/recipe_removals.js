@@ -2,6 +2,7 @@ ServerEvents.recipes((event) => {
   const removedTypes = [];
 
   const removedIDs = [
+    'minecraft:netherite_ingot',
     'embers:mixing/molten_brass',
     'orbital_railgun:orbital_railgun',
     "industrialforegoing:dissolution_chamber/infinity_backpack",

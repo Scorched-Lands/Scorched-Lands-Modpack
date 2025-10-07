@@ -2,6 +2,13 @@ let newItems = ["building_coupon"];
 
 let newBlocks = [];
 
+let newFluids = [
+  "molten_netherite",
+  "molten_diamond_steel",
+  "molten_scorched",
+  "molten_treated_iron"
+]
+
 var newAspecti = [
   ["zinc", "#B7E6BF"],
   ["netherite", "#4C484C"],
@@ -32,5 +39,11 @@ StartupEvents.registry("item", (event) => {
 StartupEvents.registry("block", (event) => {
   newBlocks.forEach((block) => {
     event.create(block);
+  });
+});
+
+StartupEvents.registry("fluid", (event) => {
+  newFluids.forEach((fluid) => {
+    event.create(fluid);
   });
 });
