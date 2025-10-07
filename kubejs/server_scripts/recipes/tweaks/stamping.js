@@ -20,7 +20,15 @@ ServerEvents.recipes(function (event) {
       .shapeless(output, [input, input, "embers:tinker_hammer"])
       .keepIngredient("embers:tinker_hammer");
 
-    event.recipes.create.pressing(output, input);
+    // event.recipes.create.pressing(output, input);
+    event.recipes.create
+      .sequenced_assembly(
+        [output],
+        [input],
+        event.recipes.create.pressing(input, input)
+      )
+      .transitionalItem(input)
+      .loops(3);
 
     event.custom({
       type: "scguns:mechanical_pressing",

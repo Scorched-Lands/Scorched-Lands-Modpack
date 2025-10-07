@@ -1,10 +1,18 @@
 
-[orbital_railgun]
-	#Damage dealt by the orbital strike to entities within its radius.
-	#Range: 0.0 ~ 1.7976931348623157E308
-	strikeDamage = 100000.0
-	#Whether the orbital strike breaks bedrock within its blast radius.
-	breakBedrock = false
+[orbitalStrike]
+	#Maximum block hardness the orbital strike can destroy(set to -1 to destroy all blocks)
+	#Range: -1.0 ~ 1.7976931348623157E308
+	maxBreakHardness = 50.0
+	#Cooldown of the Railgun in ticks
+	#Range: > 1800
+	cooldown = 2400
+	#Damage of the Orbital Strike
+	#Range: > 0
+	strikeDamage = 2147483647
+	#Blocks that won't be destroyed by the orbital strike.
+	blacklistedBlocks = ["minecraft:bedrock", "minecraft:end_portal_frame", "minecraft:end_portal", "minecraft:barrier"]
 	#Whether entities are pulled towards the strike before detonation.
 	suckEntities = true
+	#Toggle Debug mode
+	debugMode = false
 

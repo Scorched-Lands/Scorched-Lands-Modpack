@@ -264,10 +264,10 @@
     "modId": "cyanide",
     "version": "4.1.1"
   },
-  "dew_drop_farmland_growth-4.5.jar": {
-    "jarName": "dew_drop_farmland_growth-4.5.jar",
+  "dew_drop_farmland_growth-5.0.jar": {
+    "jarName": "dew_drop_farmland_growth-5.0.jar",
     "modId": "dew_drop_farmland_growth",
-    "version": "4.5"
+    "version": "5.0"
   },
   "dimdungeons-207-neoforge-1.20.1.jar": {
     "jarName": "dimdungeons-207-neoforge-1.20.1.jar",
@@ -324,10 +324,10 @@
     "modId": "euphoria_patcher",
     "version": "1.6.8-r5.5.1-forge"
   },
-  "everycomp-1.20-2.9.4-forge.jar": {
-    "jarName": "everycomp-1.20-2.9.4-forge.jar",
+  "everycomp-1.20-2.9.5-forge.jar": {
+    "jarName": "everycomp-1.20-2.9.5-forge.jar",
     "modId": "everycomp",
-    "version": "1.20-2.9.4"
+    "version": "1.20-2.9.5"
   },
   "fallen_gems_affixes-1.20.1-1.2.9.jar": {
     "jarName": "fallen_gems_affixes-1.20.1-1.2.9.jar",
@@ -675,10 +675,10 @@
     "modId": "opposing_force",
     "version": "1.0.0"
   },
-  "orbital_railgun-1.0.1.jar": {
-    "jarName": "orbital_railgun-1.0.1.jar",
+  "orbital_railgun-1.1.0.jar": {
+    "jarName": "orbital_railgun-1.1.0.jar",
     "modId": "orbital_railgun",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   "Patchouli-1.20.1-84.1-FORGE.jar": {
     "jarName": "Patchouli-1.20.1-84.1-FORGE.jar",
@@ -805,10 +805,10 @@
     "modId": "sophisticatedbackpacks",
     "version": "3.24.9.1391"
   },
-  "sophisticatedcore-1.20.1-1.2.103.1220.jar": {
-    "jarName": "sophisticatedcore-1.20.1-1.2.103.1220.jar",
+  "sophisticatedcore-1.20.1-1.2.105.1230.jar": {
+    "jarName": "sophisticatedcore-1.20.1-1.2.105.1230.jar",
     "modId": "sophisticatedcore",
-    "version": "1.2.103.1220"
+    "version": "1.2.105.1230"
   },
   "spark-1.10.53-forge.jar": {
     "jarName": "spark-1.10.53-forge.jar",

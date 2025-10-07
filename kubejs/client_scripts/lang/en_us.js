@@ -1,23 +1,42 @@
+/**
+ * @template {(...args: any[]) => any} T
+ * @param {T} fn
+ * @returns {(...args: Parameters<T>) => ReturnType<typeof template<T>>}
+ */
+let template = (fn) => function self () {
+  fn.apply(null, [].slice.call(arguments));
+  return template(fn);
+}
+
 ClientEvents.lang('en_us', event => {
-  event.renameItem('create:andesite_alloy', 'Gunmetal')
-  event.renameItem('vintageimprovements:andesite_sheet', 'Gunmetal Sheet')
-  event.renameItem('create:andesite_ladder', 'Gunmetal Ladder')
-  event.renameItem('vintageimprovements:andesite_rod', 'Gunmetal Rod')
-  event.renameItem('vintageimprovements:andesite_wire', 'Gunmetal Wire')
-  event.renameItem('vintageimprovements:andesite_spring', 'Gunmetal Spring')
-  event.renameItem('railways:track_switch_andesite', 'Track Switch')
-  event.renameItem('create:andesite_casing', 'Gunmetal Casing')
-  event.renameItem('create:andesite_funnel', 'Gunmetal Funnel')
-  event.renameItem('create:andesite_tunnel', 'Gunmetal Tunnel')
-  event.renameItem('create:andesite_table_cloth', 'Gunmetal Table Cloth')
-  event.renameItem('create:andesite_bars', 'Gunmetal Bars')
-  event.renameItem('create:andesite_scaffolding', 'Gunmetal Scaffolding')
-  event.renameItem('create:andesite_door', 'Gunmetal Door')
-  event.renameItem('create:andesite_alloy_block', 'Block of Gunmetal')
-  event.renameItem('create:brass_hand', 'Mechanical Hand')
-  event.renameItem('embers:lead_plate', 'Anthralite Plate')
-  event.renameItem('embers:plate_stamp', 'Plate Mold')
-  event.renameItem('embers:ingot_stamp', 'Ingot Mold')
-  event.renameItem('embers:nugget_stamp', 'Nugget Mold')
-  event.renameItem('embers:gear_stamp', 'Gear Mold')
+  template((a, b) => event.renameItem(a, b))
+
+  ('create:andesite_alloy', 'Gunmetal')
+  ('vintageimprovements:andesite_sheet', 'Gunmetal Sheet')
+  ('create:andesite_ladder', 'Gunmetal Ladder')
+  ('vintageimprovements:andesite_rod', 'Gunmetal Rod')
+  ('vintageimprovements:andesite_wire', 'Gunmetal Wire')
+  ('vintageimprovements:andesite_spring', 'Gunmetal Spring')
+  ('railways:track_switch_andesite', 'Track Switch')
+  ('create:andesite_casing', 'Gunmetal Casing')
+  ('create:andesite_funnel', 'Gunmetal Funnel')
+  ('create:andesite_tunnel', 'Gunmetal Tunnel')
+  ('create:andesite_table_cloth', 'Gunmetal Table Cloth')
+  ('create:andesite_bars', 'Gunmetal Bars')
+  ('create:andesite_scaffolding', 'Gunmetal Scaffolding')
+  ('create:andesite_door', 'Gunmetal Door')
+  ('create:andesite_alloy_block', 'Block of Gunmetal')
+  ('create:brass_hand', 'Mechanical Hand')
+  ('embers:lead_plate', 'Anthralite Plate')
+  ('embers:plate_stamp', 'Plate Mold')
+  ('embers:ingot_stamp', 'Ingot Mold')
+  ('embers:nugget_stamp', 'Nugget Mold')
+  ('embers:gear_stamp', 'Gear Mold')
+  ('vintageimprovements:lead_sheet', 'Anthralite Sheet')
+  ('vintageimprovements:lead_rod', 'Anthralite Rod')
+  ('vintageimprovements:lead_wire', 'Anthralite Wire')
+  ('vintageimprovements:lead_spring', 'Anthralite Spring')
+  ('embers:lead_aspectus', 'Anthralite Aspectus')
+  ('embers:molten_lead_bucket', 'Molten Anthralite Bucket')
+
 })

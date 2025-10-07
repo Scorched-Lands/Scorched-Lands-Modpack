@@ -2,6 +2,8 @@
 // tables, recipes, tags, ect.
 
 global.nukelist = [
+  'powergrid:generator_rotor',
+  'powergrid:generator_induction_rotor',
   "embers:raw_flat_stamp",
   "embers:raw_ingot_stamp",
   "embers:raw_nugget_stamp",
@@ -16,7 +18,6 @@ global.nukelist = [
   "embers:silver_plate",
   "embers:silver_block",
   "embers:silver_crystal_seed",
-  // "embers:silver_aspectus",
   "embers:raw_silver",
   "embers:silver_nugget",
   "embers:silver_ore",
@@ -30,13 +31,11 @@ global.nukelist = [
   "embers:molten_silver_bucket",
   "create:crushed_raw_silver",
   "embers:lead_crystal_seed",
-  // "embers:lead_aspectus",
   "embers:lead_sword",
   "embers:lead_shovel",
   "embers:lead_pickaxe",
   "embers:lead_axe",
   "embers:lead_hoe",
-  "embers:molten_lead_bucket",
   "create:crushed_raw_lead",
   "embers:lead_ingot",
   "embers:lead_block",
