@@ -53,6 +53,7 @@
   },
   "eclipticseasons": {
     "animal": true,
+    "cauldron": true,
     "crop": true,
     "snowy_status": true,
     "crop.shift_hint": true
@@ -81,11 +82,6 @@
     "redstone": true,
     "camo": true,
     "semiblock": true
-  },
-  "delightful": {
-    "crop_progress": true,
-    "pie_icons": true,
-    "mushroom_colony": true
   },
   "jade": {
     "coordinates.rel": false,
