@@ -98,3 +98,14 @@ $RECYCLE.BIN/
 .DS_Store
 .AppleDouble
 .LSOverride
+/.bobby
+/asm
+patchouli_data.json
+/schematics
+/shaderpacks
+/xaero
+/XaeroWaypoints_BACKUP240807
+win_event1758906871806.txt
+servers.dat_old
+config/xaeropatreon.txt
+.qmenu_opened.marker
