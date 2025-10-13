@@ -14,10 +14,10 @@
     "modId": "abnormals_delight",
     "version": "5.0.1"
   },
-  "ActuallySubtractions-1.20.1-1.2.14.16+mc1.20.1.jar": {
-    "jarName": "ActuallySubtractions-1.20.1-1.2.14.16+mc1.20.1.jar",
+  "ActuallySubtractions-1.20.1-1.2.14.18+mc1.20.1.jar": {
+    "jarName": "ActuallySubtractions-1.20.1-1.2.14.18+mc1.20.1.jar",
     "modId": "actuallyadditions",
-    "version": "1.2.14.16+mc1.20.1"
+    "version": "1.2.14.18+mc1.20.1"
   },
   "AdvancedLootInfo-forge-1.20.1-1.3.8.jar": {
     "jarName": "AdvancedLootInfo-forge-1.20.1-1.3.8.jar",
@@ -69,10 +69,10 @@
     "modId": "autumnity",
     "version": "5.0.2"
   },
-  "balm-forge-1.20.1-7.3.36-all.jar": {
-    "jarName": "balm-forge-1.20.1-7.3.36-all.jar",
+  "balm-forge-1.20.1-7.3.37-all.jar": {
+    "jarName": "balm-forge-1.20.1-7.3.37-all.jar",
     "modId": "balm",
-    "version": "7.3.36"
+    "version": "7.3.37"
   },
   "BetterClouds-1.1.jar": {
     "jarName": "BetterClouds-1.1.jar",
@@ -84,10 +84,10 @@
     "modId": "biofactory",
     "version": "0.6.0"
   },
-  "biomancy-forge-1.20.1-2.8.19.0.jar": {
-    "jarName": "biomancy-forge-1.20.1-2.8.19.0.jar",
+  "biomancy-forge-1.20.1-2.9.0.0-alpha.0.jar": {
+    "jarName": "biomancy-forge-1.20.1-2.9.0.0-alpha.0.jar",
     "modId": "biomancy",
-    "version": "2.8.19.0"
+    "version": "2.9.0.0-alpha.0"
   },
   "blueprint-1.20.1-7.1.3.jar": {
     "jarName": "blueprint-1.20.1-7.1.3.jar",
@@ -109,10 +109,10 @@
     "modId": "born_in_chaos_v1",
     "version": "1.7.2"
   },
-  "borninconfiguration-3.1-all.jar": {
-    "jarName": "borninconfiguration-3.1-all.jar",
+  "borninconfiguration-3.1.1-all.jar": {
+    "jarName": "borninconfiguration-3.1.1-all.jar",
     "modId": "borninconfiguration",
-    "version": "3.1"
+    "version": "3.1.1"
   },
   "botarium-forge-1.20.1-2.3.4.jar": {
     "jarName": "botarium-forge-1.20.1-2.3.4.jar",
@@ -164,6 +164,11 @@
     "modId": "clumps",
     "version": "12.0.0.4"
   },
+  "cobweb-forge-1.20.1-1.0.1.jar": {
+    "jarName": "cobweb-forge-1.20.1-1.0.1.jar",
+    "modId": "cobweb",
+    "version": "1.0.1"
+  },
   "compressedcreativity-1.20.1-0.2.0-all.jar": {
     "jarName": "compressedcreativity-1.20.1-0.2.0-all.jar",
     "modId": "compressedcreativity",
@@ -194,10 +199,10 @@
     "modId": "cosmeticarmorreworked",
     "version": "1.20.1-v1a"
   },
-  "CrashAssistant-forge-1.19-1.20.1-1.10.6.jar": {
-    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.10.6.jar",
+  "CrashAssistant-forge-1.19-1.20.1-1.10.10.jar": {
+    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.10.10.jar",
     "modId": "crash_assistant",
-    "version": "1.10.6"
+    "version": "1.10.10"
   },
   "create-1.20.1-6.0.6.jar": {
     "jarName": "create-1.20.1-6.0.6.jar",
@@ -284,20 +289,20 @@
     "modId": "dynamic_fps",
     "version": "3.9.5"
   },
-  "EclipticSeasons-1.20.1-forge-0.12.0-z-3-all.jar": {
-    "jarName": "EclipticSeasons-1.20.1-forge-0.12.0-z-3-all.jar",
+  "EclipticSeasons-1.20.1-forge-0.12.0.4-all.jar": {
+    "jarName": "EclipticSeasons-1.20.1-forge-0.12.0.4-all.jar",
     "modId": "eclipticseasons",
-    "version": "0.12.0-z-3"
+    "version": "0.12.0.4"
   },
   "embeddium-0.3.31+mc1.20.1.jar": {
     "jarName": "embeddium-0.3.31+mc1.20.1.jar",
     "modId": "embeddium",
     "version": "0.3.31+mc1.20.1"
   },
-  "embersrekindled-1.20.1-1.4.2.jar": {
-    "jarName": "embersrekindled-1.20.1-1.4.2.jar",
+  "embersrekindled-1.20.1-1.4.3.jar": {
+    "jarName": "embersrekindled-1.20.1-1.4.3.jar",
     "modId": "embers",
-    "version": "1.20.1-1.4.2"
+    "version": "1.20.1-1.4.3"
   },
   "emi-1.1.22+1.20.1+forge.jar": {
     "jarName": "emi-1.1.22+1.20.1+forge.jar",
@@ -319,10 +324,10 @@
     "modId": "environmental",
     "version": "4.1.2"
   },
-  "EuphoriaPatcher-1.6.8-r5.5.1-forge.jar": {
-    "jarName": "EuphoriaPatcher-1.6.8-r5.5.1-forge.jar",
+  "EuphoriaPatcher-1.7.2-r5.6.1-forge.jar": {
+    "jarName": "EuphoriaPatcher-1.7.2-r5.6.1-forge.jar",
     "modId": "euphoria_patcher",
-    "version": "1.6.8-r5.5.1-forge"
+    "version": "1.7.2-r5.6.1-forge"
   },
   "everycomp-1.20-2.9.5-forge.jar": {
     "jarName": "everycomp-1.20-2.9.5-forge.jar",
@@ -414,10 +419,10 @@
     "modId": "ftbteams",
     "version": "2001.3.1"
   },
-  "fzzy_config-0.7.2+1.20.1+forge.jar": {
-    "jarName": "fzzy_config-0.7.2+1.20.1+forge.jar",
+  "fzzy_config-0.7.3+1.20.1+forge.jar": {
+    "jarName": "fzzy_config-0.7.3+1.20.1+forge.jar",
     "modId": "fzzy_config",
-    "version": "0.7.2+1.20.1+forge"
+    "version": "0.7.3+1.20.1+forge"
   },
   "GatewaysToEternity-1.20.1-4.2.6.jar": {
     "jarName": "GatewaysToEternity-1.20.1-4.2.6.jar",
@@ -675,10 +680,10 @@
     "modId": "opposing_force",
     "version": "1.0.0"
   },
-  "orbital_railgun-1.1.0.jar": {
-    "jarName": "orbital_railgun-1.1.0.jar",
+  "orbital_railgun-1.3.0.jar": {
+    "jarName": "orbital_railgun-1.3.0.jar",
     "modId": "orbital_railgun",
-    "version": "1.1.0"
+    "version": "1.3.0"
   },
   "Patchouli-1.20.1-84.1-FORGE.jar": {
     "jarName": "Patchouli-1.20.1-84.1-FORGE.jar",
@@ -765,10 +770,10 @@
     "modId": "sawmill",
     "version": "1.20-1.4.10"
   },
-  "ScorchedGuns-0.4.9-1.20.1.jar": {
-    "jarName": "ScorchedGuns-0.4.9-1.20.1.jar",
+  "ScorchedGuns-0.5.1-1.20.1.jar": {
+    "jarName": "ScorchedGuns-0.5.1-1.20.1.jar",
     "modId": "scguns",
-    "version": "0.4.9"
+    "version": "0.5.1"
   },
   "Searchables-forge-1.20.1-1.0.3.jar": {
     "jarName": "Searchables-forge-1.20.1-1.0.3.jar",
@@ -810,6 +815,11 @@
     "modId": "sophisticatedcore",
     "version": "1.2.105.1230"
   },
+  "soul-fire-d-forge-1.20.1-4.0.11.jar": {
+    "jarName": "soul-fire-d-forge-1.20.1-4.0.11.jar",
+    "modId": "soul_fire_d",
+    "version": "4.0.11"
+  },
   "spark-1.10.53-forge.jar": {
     "jarName": "spark-1.10.53-forge.jar",
     "modId": "spark",
@@ -830,10 +840,10 @@
     "modId": "stellarview",
     "version": "0.5.1"
   },
-  "stonezone-1.20-2.9.5.jar": {
-    "jarName": "stonezone-1.20-2.9.5.jar",
+  "stonezone-1.20-2.9.6.jar": {
+    "jarName": "stonezone-1.20-2.9.6.jar",
     "modId": "stonezone",
-    "version": "1.20-2.9.5"
+    "version": "1.20-2.9.6"
   },
   "StorageDrawers-forge-1.20.1-12.14.3.jar": {
     "jarName": "StorageDrawers-forge-1.20.1-12.14.3.jar",
@@ -870,10 +880,10 @@
     "modId": "toofast",
     "version": "0.4.3.5"
   },
-  "toomanyrecipeviewers-0.6.3+mc.20.1.jar": {
-    "jarName": "toomanyrecipeviewers-0.6.3+mc.20.1.jar",
+  "toomanyrecipeviewers-0.6.4+mc.20.1.jar": {
+    "jarName": "toomanyrecipeviewers-0.6.4+mc.20.1.jar",
     "modId": "toomanyrecipeviewers",
-    "version": "0.6.3+mc.20.1"
+    "version": "0.6.4+mc.20.1"
   },
   "vintage_kubejs-1.20.1-1.0.0rc-2.jar": {
     "jarName": "vintage_kubejs-1.20.1-1.0.0rc-2.jar",
@@ -890,10 +900,10 @@
     "modId": "vintageimprovements",
     "version": "1.20.1-0.3.5.0"
   },
-  "windswept-1.20.1-3.0.2.jar": {
-    "jarName": "windswept-1.20.1-3.0.2.jar",
+  "windswept-1.20.1-3.0.3.jar": {
+    "jarName": "windswept-1.20.1-3.0.3.jar",
     "modId": "windswept",
-    "version": "3.0.2"
+    "version": "3.0.3"
   },
   "windswept_delights-1.20.1-1.0.0-rc1.jar": {
     "jarName": "windswept_delights-1.20.1-1.0.0-rc1.jar",

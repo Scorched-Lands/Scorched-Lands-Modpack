@@ -60,7 +60,7 @@
 			]
 			title: "driller i barely know her"
 			x: -0.5d
-			y: -7.0d
+			y: -9.5d
 		}
 		{
 			id: "63BB53BEE755D2AA"
@@ -76,7 +76,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -7.0d
+			y: -9.5d
 		}
 		{
 			id: "7CBFB97362FB6D86"
@@ -92,7 +92,29 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -7.0d
+			y: -9.5d
+		}
+		{
+			id: "520494B0F785B448"
+			tasks: [{
+				id: "76B974CA6AAF8983"
+				item: "powergrid:conductive_casing"
+				type: "item"
+			}]
+			title: "Electricity"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "647A7599B5F6AD35"
+			tasks: [{
+				id: "40C92DA7A3A85ADD"
+				item: "createbigcannons:molten_bronze_bucket"
+				type: "item"
+			}]
+			title: "Create Big Cannons"
+			x: -2.5d
+			y: -6.0d
 		}
 	]
 	title: "Expand"

@@ -237,6 +237,16 @@
 			x: 2.0d
 			y: -10.5d
 		}
+		{
+			id: "0CD65628722E5FF7"
+			tasks: [{
+				id: "725317D6BFDBB5B7"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
 	]
 	title: "Thrive"
 }

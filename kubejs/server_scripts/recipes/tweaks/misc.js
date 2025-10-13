@@ -1,4 +1,5 @@
 ServerEvents.recipes((event) => {
+  const pneumaticcraft = definePneumaticcraftRecipes(event);
   const apothRemovedIDs = (filters) =>
     filters.forEach((f) =>
       event.shapeless(Item.of("minecraft:barrier"), ["minecraft:barrier"]).id(f)
@@ -64,4 +65,19 @@ ServerEvents.recipes((event) => {
   event.stonecutting('embers:nugget_stamp', 'scguns:blank_mold')
   event.stonecutting('embers:ingot_stamp', 'scguns:blank_mold')
   event.stonecutting('embers:plate_stamp', 'scguns:blank_mold')
+  pneumaticcraft
+  .thermo_plant()
+  .fluid_input(Fluid.of('pneumaticcraft:plastic', 50))
+  .item_input('embers:item_pipe')
+  .item_output('curvy_pipes:medium_item_pipe')
+  pneumaticcraft
+  .thermo_plant()
+  .fluid_input(Fluid.of('pneumaticcraft:plastic', 50))
+  .item_input('create:fluid_pipe')
+  .item_output('curvy_pipes:medium_fluid_pipe')
+    pneumaticcraft
+  .thermo_plant()
+  .fluid_input(Fluid.of('pneumaticcraft:plastic', 50))
+  .item_input('#forge:wires')
+  .item_output('curvy_pipes:medium_energy_pipe')
 });

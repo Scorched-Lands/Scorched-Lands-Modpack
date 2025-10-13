@@ -28,13 +28,13 @@ ServerEvents.recipes(function (event) {
         event.recipes.create.pressing(input, input)
       )
       .transitionalItem(input)
-      .loops(3);
+      .loops(2);
 
     event.custom({
       type: "scguns:mechanical_pressing",
       processingTime: 200,
       ingredients: [{ item: input }],
-      mold: { item: "embers:plate_stamp" },
+      // mold: { item: "embers:plate_stamp" },
       result: { item: output, count: 1 },
     });
 
@@ -43,7 +43,7 @@ ServerEvents.recipes(function (event) {
       processingTime: 100,
       energyUse: 500,
       ingredients: [{ item: input }],
-      mold: { item: "embers:plate_stamp" },
+      // mold: { item: "embers:plate_stamp" },
       result: { item: output, count: 1 },
     });
   });
